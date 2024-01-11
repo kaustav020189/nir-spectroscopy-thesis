@@ -1,18 +1,18 @@
 # NIR-spectroscopy using Python
-##### Project title - A comparison of popular regression models on NIR dataset
+##### Project title - Comparison of multiple regression algorithms on NIRS data
 
 ## Dependencies
 ##### Python 3.+ , Jupyter Notebook, Pandas, Scikit Learn, Seaborn, Scipy
 
 ## Initial setup
-Keep all the files from this repository in the same directory. Keep the data files (.csv) in a sibling directory named data. All model pipelines can be 
+Keep all the files from this repository in the same directory. Keep the data files in a directory named "data" inside the current directory. All model pipelines can be 
 run from the respective .ipynb files for the corresponding regression models. So, any changes to the .ipynb files maybe made to alter experiments. 
 Knowledge of the contents of other helper files is not required, just follow the below instructions to understand the pipelines.
 
 ## --> Modifications required for below sections
 
 ## Understanding the code
-- The two .ipynb files contain pipelines for PLS and Lasso respectively.
+- The .ipynb files contain the respective pipelines as per their names for that particular dataset.
 - Each pipeline code block has an associated markup block before it to describe the pipeline features
 - The code blocks have complete comments section for each code statements. Follow the comments if required.
 - The util.py contains all custom function code and is the background for all the pipeline runs. It is not necessary to access this code, since every
@@ -57,7 +57,7 @@ preprocessor_params = {
         }
     }
 ```
-- The main pipeline_params variable, where most of the modfications can be done. Refer previous section "Parameter help" to understand what to change.
+- The main pipeline_params variable, where most of the modifications can be done. Refer previous section "Parameter help" to understand what to change.
 ```
 pipeline_params = {
         'logger' : logger,
