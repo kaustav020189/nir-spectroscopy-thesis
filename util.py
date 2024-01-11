@@ -28,7 +28,7 @@ def get_config_values(object_type: str, list_type=True, key=None) -> list:
     """ Reads the specified config.ini object and returns a list of values """
 
     config_obj = configparser.ConfigParser()
-    config_obj.read("configfile.ini")
+    config_obj.read("config.ini")
     if list_type:
         values = []
         objects = config_obj[object_type]
@@ -83,7 +83,8 @@ def get_split_data(files: list, split_params: dict, test_size: float, showDataED
         df_list = []
         for i, file in enumerate(files):
             data = pd.read_csv(file, sep=split_params['sep'])
-            data.set_index(split_params['index_column'])
+            if (split_params['index_column'] is not None):
+                data.set_index(split_params['index_column'])
             df_list.append(data)
         # concatenate them together
         big_df = pd.concat(df_list, ignore_index=True)
@@ -102,9 +103,10 @@ def get_split_data(files: list, split_params: dict, test_size: float, showDataED
     else:  # single file
         # read the file and create dataframe
         data = pd.read_csv(files, sep=split_params['sep'])
-        data.set_index(split_params['index_column'])
+        if (split_params['index_column'] is not None):
+            data.set_index(split_params['index_column'])
         X = data.drop(axis=1,
-                      columns=split_params['drop_columns'])  # drop the last column, so we have exactly 256 features
+                      columns=split_params['drop_columns'])  # drop the y column
         y = data[split_params['y_data_column']]
 
         if showDataEDA:
@@ -150,11 +152,6 @@ def pipeline(pipeline_params: dict):
 
     # Get the data
     data = (X_train, X_test, y_train, y_test) = pipeline_params['data']
-
-    if showPlots:
-        # plot raw training spectrum
-        plot(x_axis_data=wl, y_axis_data=X_train, title='Spectrum plot of training data', xlabel='wavelength',
-             ylabel='absorbance')
 
     # Preprocess + train -> then validate / hyperparameter tuning -> then test / evaluate score on test set
 
@@ -675,7 +672,7 @@ def plot(x_axis_data, y_axis_data, title='', xlabel='', ylabel=''):
     y_label
     """
 
-    plt.figure(figsize=(8, 5))
+    plt.figure(figsize=(5, 3))
     with plt.style.context('ggplot'):
         plt.plot(x_axis_data, y_axis_data.T)
         plt.xlabel(xlabel)
