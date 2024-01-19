@@ -9,8 +9,6 @@ Keep all the files from this repository in the same directory. Keep the data fil
 run from the respective .ipynb files for the corresponding regression models. So, any changes to the .ipynb files maybe made to alter experiments. 
 Knowledge of the contents of other helper files is not required, just follow the below instructions to understand the pipelines.
 
-## --> Modifications required for below sections
-
 ## Understanding the code
 - The .ipynb files contain the respective pipelines as per their names for that particular dataset.
 - Each pipeline code block has an associated markup block before it to describe the pipeline features

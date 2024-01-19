@@ -661,6 +661,27 @@ def result(path, file):
     return logger
 
 
+def dual_plot(plot1_params, plot2_params, figsize=(12,4)):
+    fig = plt.figure(figsize=figsize)
+
+    plt.subplot(1, 2, 1)
+    with plt.style.context('ggplot'):
+        plt.plot(plot1_params['x_axis_data'], plot1_params['y_axis_data'].T)
+        plt.xlabel(plot1_params['xlabel'])
+        plt.ylabel(plot1_params['ylabel'])
+        plt.title(plot1_params['title'])
+
+    plt.subplot(1, 2, 2)
+    with plt.style.context('ggplot'):
+        plt.plot(plot2_params['x_axis_data'], plot2_params['y_axis_data'].T)
+        plt.xlabel(plot2_params['xlabel'])
+        plt.ylabel(plot2_params['ylabel'])
+        plt.title(plot2_params['title'])
+
+    plt.subplots_adjust(wspace=0.4)
+    plt.show()
+
+
 def plot(x_axis_data, y_axis_data, title='', xlabel='', ylabel=''):
     """ Produces a simple plot based on values from x_axis_data and y_axis_data
 
@@ -672,7 +693,7 @@ def plot(x_axis_data, y_axis_data, title='', xlabel='', ylabel=''):
     y_label
     """
 
-    plt.figure(figsize=(5, 3))
+    plt.figure(figsize=(6, 4))
     with plt.style.context('ggplot'):
         plt.plot(x_axis_data, y_axis_data.T)
         plt.xlabel(xlabel)
@@ -697,11 +718,11 @@ def heatmap_plot(score_values, range_min, range_max, x_axis_data, y_axis_data, t
 
     # Plot
     df = pd.DataFrame(score_values, columns=x_axis_data, index=y_axis_data)
-    f, ax = plt.subplots(figsize=(10, 7))
+    f, ax = plt.subplots(figsize=(8, 6))
     ax = sns.heatmap(df, vmin=range_min, vmax=range_max, cmap="Blues", linewidth=0.5, annot=True, fmt=".3f")
     ax.set(title=title)
-    plt.xlabel(xlabel, fontsize=15)
-    plt.ylabel(ylabel, fontsize=15)
+    plt.xlabel(xlabel, fontsize=13)
+    plt.ylabel(ylabel, fontsize=13)
     plt.show()
 
 # def plot_3D(x, y, z, xlabel, ylabel, zlabel, title):
