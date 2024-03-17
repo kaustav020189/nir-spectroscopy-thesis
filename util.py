@@ -11,12 +11,14 @@ warnings.filterwarnings('ignore')
 from scipy.signal import savgol_filter
 from sklearn.cross_decomposition import PLSRegression
 from sklearn.linear_model import Lasso, LassoCV
-from sklearn.metrics import r2_score, mean_squared_error
+from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 from sklearn.model_selection import cross_val_predict, train_test_split, KFold, StratifiedKFold, RepeatedKFold
 from sys import stdout
 import os
 import logging
 import configparser
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split, GridSearchCV
 
 
 # list files from current dir and filter with .csv
@@ -225,7 +227,7 @@ def pipeline(pipeline_params: dict):
                      ylabel='absorbance')
 
         if pipeline_run_type != 'preprocessor':
-            # [ STEP 2 ] Validation and hyperparameter (n_comp of PLS) optimisation
+            # [ STEP 2 ] Validation and hyperparameter (n_comp of PLS) optimization
 
             logger.info("[VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]")
 
@@ -311,6 +313,41 @@ def pipeline(pipeline_params: dict):
                                showPlot=True, showModelEvaluationPlots=showModelEvaluationPlots)
         # error = evaluate_lasso(X_train, X_test, y_train, y_test, best_alpha_val, showPlot=True)
         logger.info("Model loss : {}".format(error))
+    elif model == 'randomforests':
+        # [ STEP 1 ] Preprocessing
+
+        logger.info("[PRE PROCESSING]")
+
+        if pre_processor == 'derivative':
+            X_train_preprocessed, X_test_preprocessed = deriv(data, wl, showPlot=showPlots)
+            if showPlots:
+                plot(x_axis_data=wl, y_axis_data=X_train_preprocessed,
+                     title='Post Derivative plot', xlabel='wavelength',
+                     ylabel='absorbance')
+        elif pre_processor == 'snv':
+            X_train_preprocessed, X_test_preprocessed = snv(data)
+            if showPlots:
+                plot(x_axis_data=wl, y_axis_data=X_train_preprocessed, title='Post SNV Plot', xlabel='wavelength',
+                     ylabel='absorbance')
+        elif pre_processor == 'msc':
+            X_train_preprocessed, X_test_preprocessed = msc(data)
+            if showPlots:
+                plot(x_axis_data=wl, y_axis_data=X_train_preprocessed, title='Post MSC plot', xlabel='wavelength',
+                     ylabel='absorbance')
+
+        # [ STEP 2 ] Optimization & Evaluation
+
+        logger.info("[VALIDATION AND HYPERPARAMETER TUNING]")
+
+        # Check selected validation type
+        # SYNTAX - value_when_true if condition else value_when_false
+        validation_type = 'grid-search-cv' if pipeline_params['validation-type'] == 'grid-search-cv' else 'kfold-cv'
+        validation_params = {
+            'validation_type': validation_type,
+            'folds': folds
+        }
+
+        optimize_and_evaluate_rf(X_train_preprocessed,X_test_preprocessed, y_train, y_test, validation_params, logger=logger, showPlot=showPlots)
 
 
 def savgol(data, window_size_range, polyorder_range, deriv=0, showPlot=False):
@@ -359,6 +396,22 @@ def savgol(data, window_size_range, polyorder_range, deriv=0, showPlot=False):
     X_test_smooth = savgol_filter(X_test, best_window_size, polyorder=best_polyorder, deriv=deriv)
 
     return X_train_smooth, X_test_smooth, least_mse_score, best_window_size, best_polyorder
+
+
+def deriv(data, wl, showPlot=False):
+    """
+    # returns - X_train_diff, X_test_diff (derivatives)
+    """
+    X_train, X_test, y_train, y_test = data
+
+    X_train_diff = np.gradient(X_train, axis=1)
+    X_test_diff = np.gradient(X_test, axis=1)
+
+    # Plot
+    if showPlot:
+        plot(wl, X_train_diff, title='Plot after derivative', xlabel='wavelength', ylabel='absorbance')
+
+    return X_train_diff, X_test_diff
 
 
 def snv(data, afterSmoothing=False):
@@ -569,8 +622,8 @@ def evaluate_pls(X_train, X_test, y_train, y_test, min_pls_n_comp, showPlot=Fals
             # Plot the ideal 1:1 line
             ax.plot(y_test, y_test, color='green', linewidth=1)
             # plt.title('$R^{2}$ (CV): '+str(score_cv))
-            plt.xlabel('Predicted $^{\circ}$Brix')
-            plt.ylabel('Measured $^{\circ}$Brix')
+            plt.xlabel('Actual Original Gravity')
+            plt.ylabel('Predicted Original Gravity')
 
             plt.show()
 
@@ -611,12 +664,94 @@ def evaluate_lasso(X_train, X_test, y_train, y_test, best_alpha_val, showPlot=Fa
             # Plot the ideal 1:1 line
             ax.plot(y_test, y_test, color='green', linewidth=1)
             # plt.title('$R^{2}$ (CV): '+str(score_cv))
-            plt.xlabel('Predicted $^{\circ}$Brix')
-            plt.ylabel('Measured $^{\circ}$Brix')
+            plt.xlabel('Actual Original Gravity')
+            plt.ylabel('Predicted Original Gravity')
 
             plt.show()
 
     return loss
+
+
+def optimize_and_evaluate_rf(X_train, X_test, y_train, y_test, validation_params, logger, showPlot=False):
+    """ Run RF while tuning hyperparameters such that MSE is least AS PER THE SELECTED VALIDATION TECHNIQUE
+
+     @params
+     X -> X_train_preprocessed,
+     y -> y_train,
+     validation_params,
+     showPlot
+
+     # returns best params for RF
+
+     """
+
+    # Define the parameter grid for grid search
+    param_grid = {'n_estimators': [50, 100, 200],
+                  'max_depth': [5, 10, 20, None],
+                  'min_samples_split': [2, 5, 10],
+                  'min_samples_leaf': [1, 2, 4],
+                  'max_features': ['auto', 'sqrt']}
+
+    # Create a random forest regressor object
+    rf = RandomForestRegressor()
+
+    # Perform grid search cross-validation to find the best hyperparameters
+    grid_search = GridSearchCV(rf, param_grid=param_grid, cv=5, n_jobs=-1)
+    grid_search.fit(X_train, y_train.ravel())
+
+    # SAVE OPTIMISED HYPERPARAMETER VALUES
+    logger.info("Optimized hyper-params for RandomForests {}".format(grid_search.best_params_))
+
+    # Model evaluation
+    logger.info("[MODEL EVALUATION]")
+
+    base_model = RandomForestRegressor(n_estimators=10, random_state=42)
+    base_model.fit(X_train, y_train)
+    base_accuracy = evaluate_rf(base_model, X_test, y_test)
+
+    best_random = grid_search.best_estimator_
+    random_accuracy = evaluate_rf(best_random, X_test, y_test)
+
+    print('Improvement of {:0.2f}%.'.format(100 * (random_accuracy - base_accuracy) / base_accuracy))
+
+
+def evaluate_rf(best_random_model, X_test, y_test, showModelEvaluationPlots=True):
+
+    y_pred = best_random_model.predict(X_test)
+    # EVALUATION
+    mse_loss = mean_squared_error(y_test, y_pred)
+    r2_loss = r2_score(y_test, y_pred)
+    mae_loss = mean_absolute_error(y_test, y_pred)
+
+    print('R-squared score:', r2_loss)
+    print('Mean Squared Error:', mse_loss)
+    print('Mean Absolute Error:', mae_loss)
+
+    errors = abs(y_pred - y_test)
+    mape = 100 * np.mean(errors / y_test)
+    accuracy = 100 - mape
+    print('Model Performance')
+    print('Average Error: {:0.4f} degrees.'.format(np.mean(errors)))
+    print('Accuracy = {:0.2f}%.'.format(accuracy))
+
+    # Plot
+    if showModelEvaluationPlots:
+        # Fit a line to the test vs pred
+        z = np.polyfit(y_test, y_pred, 1)
+        with plt.style.context(('ggplot')):
+            fig, ax = plt.subplots(figsize=(9, 5))
+            ax.scatter(y_pred, y_test, c='red', edgecolors='k')
+            # Plot the best fit line
+            ax.plot(np.polyval(z, y_test), y_test, c='blue', linewidth=1)
+            # Plot the ideal 1:1 line
+            ax.plot(y_test, y_test, color='green', linewidth=1)
+            # plt.title('$R^{2}$ (CV): '+str(score_cv))
+            plt.xlabel('Actual Original Gravity')
+            plt.ylabel('Predicted Original Gravity')
+
+            plt.show()
+
+    return accuracy
 
 
 def result(path, file):
