@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 from scipy.signal import savgol_filter
 from sklearn.cross_decomposition import PLSRegression
 from sklearn.linear_model import Lasso, LassoCV
-from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+from sklearn.metrics import r2_score, mean_squared_error
 from sklearn.model_selection import cross_val_predict, train_test_split, KFold, StratifiedKFold, RepeatedKFold
 from sys import stdout
 import os
@@ -19,6 +19,7 @@ import logging
 import configparser
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.svm import SVR
 
 
 # list files from current dir and filter with .csv
@@ -225,6 +226,12 @@ def pipeline(pipeline_params: dict):
             if showPlots:
                 plot(x_axis_data=wl, y_axis_data=X_train_preprocessed, title='Post MSC plot', xlabel='wavelength',
                      ylabel='absorbance')
+        elif pre_processor == 'derivative':
+            X_train_preprocessed, X_test_preprocessed = deriv(data, wl, showPlot=showPlots)
+            if showPlots:
+                plot(x_axis_data=wl, y_axis_data=X_train_preprocessed,
+                     title='Post Derivative plot', xlabel='wavelength',
+                     ylabel='absorbance')
 
         if pipeline_run_type != 'preprocessor':
             # [ STEP 2 ] Validation and hyperparameter (n_comp of PLS) optimization
@@ -277,6 +284,12 @@ def pipeline(pipeline_params: dict):
             X_train_preprocessed, X_test_preprocessed = msc(data)
             if showPlots:
                 plot(x_axis_data=wl, y_axis_data=X_train_preprocessed, title='Post MSC plot', xlabel='wavelength',
+                     ylabel='absorbance')
+        elif pre_processor == 'derivative':
+            X_train_preprocessed, X_test_preprocessed = deriv(data, wl, showPlot=showPlots)
+            if showPlots:
+                plot(x_axis_data=wl, y_axis_data=X_train_preprocessed,
+                     title='Post Derivative plot', xlabel='wavelength',
                      ylabel='absorbance')
 
         # Fit model again on preprocessed data and check results
@@ -348,6 +361,88 @@ def pipeline(pipeline_params: dict):
         }
 
         optimize_and_evaluate_rf(X_train_preprocessed,X_test_preprocessed, y_train, y_test, validation_params, logger=logger, showPlot=showPlots)
+
+    elif model == 'svr':
+        # extract param_grid supplied as parameter
+        param_grid = pipeline_params['param_grid']
+
+        # [ STEP 1 ] Preprocessing
+
+        logger.info("[PRE PROCESSING]")
+        if pre_processor == 'savgol0' or pre_processor == 'savgol1' or pre_processor == 'savgol2':
+            window_range = pre_processor_params['savgol']['window_size_range']
+            polyorder_range = pre_processor_params['savgol']['polyorder_range']
+            derivative = pre_processor_params['savgol']['derivative']
+
+            X_train_preprocessed, X_test_preprocessed, least_mse_score, best_window_size, best_polyorder = \
+                savgol(data, window_size_range=window_range,
+                       polyorder_range=polyorder_range,
+                       deriv=derivative, showPlot=showPlots)
+
+            # SAVE LEAST MSE_SCORE VALUE, BEST WINDOW_SIZE AND BEST POLYNOMIAL INTO RESULTS
+            logger.info("Least MSE from SAVGOL loop run {}".format(least_mse_score))
+            logger.info("Best window size {}".format(best_window_size))
+            logger.info("Best polyorder {}".format(best_polyorder))
+            # print("Least MSE from SAVGOL loop run : "+str(least_mse_score))
+            if showPlots:
+                plot(x_axis_data=wl, y_axis_data=X_train_preprocessed,
+                     title='Post SavGol plot (Deriv : ' + str(derivative) + ' )', xlabel='wavelength',
+                     ylabel='absorbance')
+        elif pre_processor == 'derivative':
+            X_train_preprocessed, X_test_preprocessed = deriv(data, wl, showPlot=showPlots)
+            if showPlots:
+                plot(x_axis_data=wl, y_axis_data=X_train_preprocessed,
+                     title='Post Derivative plot', xlabel='wavelength',
+                     ylabel='absorbance')
+        elif pre_processor == 'snv':
+            X_train_preprocessed, X_test_preprocessed = snv(data)
+            if showPlots:
+                plot(x_axis_data=wl, y_axis_data=X_train_preprocessed, title='Post SNV Plot', xlabel='wavelength',
+                     ylabel='absorbance')
+        elif pre_processor == 'msc':
+            X_train_preprocessed, X_test_preprocessed = msc(data)
+            if showPlots:
+                plot(x_axis_data=wl, y_axis_data=X_train_preprocessed, title='Post MSC plot', xlabel='wavelength',
+                     ylabel='absorbance')
+
+        # [ STEP 2 ] Hyperparameter Optimization & Evaluation
+        logger.info("[VALIDATION AND HYPERPARAMETER TUNING]")
+
+        # Check selected validation type
+        # SYNTAX - value_when_true if condition else value_when_false
+        validation_type = 'grid-search-cv' if pipeline_params['validation-type'] == 'grid-search-cv' else 'kfold-cv'
+        validation_params = {
+            'validation_type': validation_type,
+            'folds': folds
+        }
+
+        optimize_and_evaluate_svr(X_train_preprocessed, X_test_preprocessed, y_train, y_test, param_grid,
+                                 logger=logger, showPlot=showPlots)
+
+
+def optimize_and_evaluate_svr(X_train, X_test, y_train, y_test, param_grid, logger, showPlot=False):
+
+    base_model = SVR(kernel='poly', C=100, gamma=0.1)
+    base_model.fit(X_train, y_train)
+    base_accuracy = evaluate(base_model, X_test, y_test)
+
+    # Initialize GridSearchCV
+    svr = SVR(kernel='poly')
+    grid_search = GridSearchCV(svr, param_grid=param_grid, cv=5, n_jobs=-1)
+
+    # Perform grid search
+    grid_search.fit(X_train, y_train)
+
+    # SAVE OPTIMISED HYPERPARAMETER VALUES
+    logger.info("Optimized hyper-params for SVR {}".format(grid_search.best_params_))
+
+    # Model evaluation
+    logger.info("[MODEL EVALUATION]")
+
+    best_random = grid_search.best_estimator_
+    random_accuracy = evaluate(best_random, X_test, y_test)
+
+    print('Improvement of {:0.2f}%.'.format(100 * (random_accuracy - base_accuracy) / base_accuracy))
 
 
 def savgol(data, window_size_range, polyorder_range, deriv=0, showPlot=False):
@@ -705,27 +800,28 @@ def optimize_and_evaluate_rf(X_train, X_test, y_train, y_test, validation_params
     # Model evaluation
     logger.info("[MODEL EVALUATION]")
 
-    base_model = RandomForestRegressor(n_estimators=10, random_state=42)
+    #base_model = RandomForestRegressor(n_estimators=10, random_state=42)
+    base_model = rf
     base_model.fit(X_train, y_train)
-    base_accuracy = evaluate_rf(base_model, X_test, y_test)
+    base_accuracy = evaluate(base_model, X_test, y_test)
 
-    best_random = grid_search.best_estimator_
-    random_accuracy = evaluate_rf(best_random, X_test, y_test)
+    #best_random = grid_search.best_estimator_
+    best_model = RandomForestRegressor(**grid_search.best_params_)
+    best_model.fit(X_train, y_train.ravel())
+    random_accuracy = evaluate(best_model, X_test, y_test)
 
     print('Improvement of {:0.2f}%.'.format(100 * (random_accuracy - base_accuracy) / base_accuracy))
 
 
-def evaluate_rf(best_random_model, X_test, y_test, showModelEvaluationPlots=True):
+def evaluate(model, X_test, y_test, showModelEvaluationPlots=True):
 
-    y_pred = best_random_model.predict(X_test)
+    y_pred = model.predict(X_test)
     # EVALUATION
     mse_loss = mean_squared_error(y_test, y_pred)
     r2_loss = r2_score(y_test, y_pred)
-    mae_loss = mean_absolute_error(y_test, y_pred)
 
     print('R-squared score:', r2_loss)
     print('Mean Squared Error:', mse_loss)
-    print('Mean Absolute Error:', mae_loss)
 
     errors = abs(y_pred - y_test)
     mape = 100 * np.mean(errors / y_test)

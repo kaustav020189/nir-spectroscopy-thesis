@@ -1,0 +1,1016 @@
+INFO: 2024-03-19 18:42:04,622: ************************************
+INFO: 2024-03-19 18:42:04,622: ************************************
+INFO: 2024-03-19 18:42:04,622: ************************************
+INFO: 2024-03-19 18:42:04,622: ************************************
+INFO: 2024-03-19 18:42:04,625: Pipeline Start...
+INFO: 2024-03-19 18:42:04,625: Pipeline Start...
+INFO: 2024-03-19 18:42:04,625: Pipeline Start...
+INFO: 2024-03-19 18:42:04,625: Pipeline Start...
+INFO: 2024-03-19 18:42:04,625: Pipeline params :
+INFO: 2024-03-19 18:42:04,625: Pipeline params :
+INFO: 2024-03-19 18:42:04,625: Pipeline params :
+INFO: 2024-03-19 18:42:04,625: Pipeline params :
+INFO: 2024-03-19 18:42:04,626: Data : Animal Feed Dataset , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:04,626: Data : Animal Feed Dataset , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:04,626: Data : Animal Feed Dataset , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:04,626: Data : Animal Feed Dataset , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:04,626: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:04,626: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:04,626: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:04,626: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:04,626: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:04,626: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:04,626: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:04,626: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:06,456: Least MSE from SAVGOL loop run 10.25515089570027
+INFO: 2024-03-19 18:42:06,456: Least MSE from SAVGOL loop run 10.25515089570027
+INFO: 2024-03-19 18:42:06,456: Least MSE from SAVGOL loop run 10.25515089570027
+INFO: 2024-03-19 18:42:06,456: Least MSE from SAVGOL loop run 10.25515089570027
+INFO: 2024-03-19 18:42:06,457: Best window size 60
+INFO: 2024-03-19 18:42:06,457: Best window size 60
+INFO: 2024-03-19 18:42:06,457: Best window size 60
+INFO: 2024-03-19 18:42:06,457: Best window size 60
+INFO: 2024-03-19 18:42:06,457: Best polyorder 10
+INFO: 2024-03-19 18:42:06,457: Best polyorder 10
+INFO: 2024-03-19 18:42:06,457: Best polyorder 10
+INFO: 2024-03-19 18:42:06,457: Best polyorder 10
+INFO: 2024-03-19 18:42:06,550: Elapsed time for pipeline run : 1.93
+INFO: 2024-03-19 18:42:06,550: Elapsed time for pipeline run : 1.93
+INFO: 2024-03-19 18:42:06,550: Elapsed time for pipeline run : 1.93
+INFO: 2024-03-19 18:42:06,550: Elapsed time for pipeline run : 1.93
+INFO: 2024-03-19 18:42:06,551: Pipeline end...
+INFO: 2024-03-19 18:42:06,551: Pipeline end...
+INFO: 2024-03-19 18:42:06,551: Pipeline end...
+INFO: 2024-03-19 18:42:06,551: Pipeline end...
+INFO: 2024-03-19 18:42:06,552: ************************************
+INFO: 2024-03-19 18:42:06,552: ************************************
+INFO: 2024-03-19 18:42:06,552: ************************************
+INFO: 2024-03-19 18:42:06,552: ************************************
+INFO: 2024-03-19 18:42:06,552: ************************************
+INFO: 2024-03-19 18:42:06,552: ************************************
+INFO: 2024-03-19 18:42:06,552: ************************************
+INFO: 2024-03-19 18:42:06,552: ************************************
+INFO: 2024-03-19 18:42:06,553: Pipeline Start...
+INFO: 2024-03-19 18:42:06,553: Pipeline Start...
+INFO: 2024-03-19 18:42:06,553: Pipeline Start...
+INFO: 2024-03-19 18:42:06,553: Pipeline Start...
+INFO: 2024-03-19 18:42:06,553: Pipeline params :
+INFO: 2024-03-19 18:42:06,553: Pipeline params :
+INFO: 2024-03-19 18:42:06,553: Pipeline params :
+INFO: 2024-03-19 18:42:06,553: Pipeline params :
+INFO: 2024-03-19 18:42:06,554: Data : Animal Feed Dataset , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:06,554: Data : Animal Feed Dataset , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:06,554: Data : Animal Feed Dataset , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:06,554: Data : Animal Feed Dataset , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:06,555: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:06,555: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:06,555: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:06,555: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:06,556: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:06,556: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:06,556: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:06,556: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:07,652: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 18:42:07,652: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 18:42:07,652: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 18:42:07,652: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 18:42:07,653: Best window size 15
+INFO: 2024-03-19 18:42:07,653: Best window size 15
+INFO: 2024-03-19 18:42:07,653: Best window size 15
+INFO: 2024-03-19 18:42:07,653: Best window size 15
+INFO: 2024-03-19 18:42:07,653: Best polyorder 14
+INFO: 2024-03-19 18:42:07,653: Best polyorder 14
+INFO: 2024-03-19 18:42:07,653: Best polyorder 14
+INFO: 2024-03-19 18:42:07,653: Best polyorder 14
+INFO: 2024-03-19 18:42:07,753: Elapsed time for pipeline run : 1.2
+INFO: 2024-03-19 18:42:07,753: Elapsed time for pipeline run : 1.2
+INFO: 2024-03-19 18:42:07,753: Elapsed time for pipeline run : 1.2
+INFO: 2024-03-19 18:42:07,753: Elapsed time for pipeline run : 1.2
+INFO: 2024-03-19 18:42:07,753: Pipeline end...
+INFO: 2024-03-19 18:42:07,753: Pipeline end...
+INFO: 2024-03-19 18:42:07,753: Pipeline end...
+INFO: 2024-03-19 18:42:07,753: Pipeline end...
+INFO: 2024-03-19 18:42:07,754: ************************************
+INFO: 2024-03-19 18:42:07,754: ************************************
+INFO: 2024-03-19 18:42:07,754: ************************************
+INFO: 2024-03-19 18:42:07,754: ************************************
+INFO: 2024-03-19 18:42:07,754: ************************************
+INFO: 2024-03-19 18:42:07,754: ************************************
+INFO: 2024-03-19 18:42:07,754: ************************************
+INFO: 2024-03-19 18:42:07,754: ************************************
+INFO: 2024-03-19 18:42:07,755: Pipeline Start...
+INFO: 2024-03-19 18:42:07,755: Pipeline Start...
+INFO: 2024-03-19 18:42:07,755: Pipeline Start...
+INFO: 2024-03-19 18:42:07,755: Pipeline Start...
+INFO: 2024-03-19 18:42:07,756: Pipeline params :
+INFO: 2024-03-19 18:42:07,756: Pipeline params :
+INFO: 2024-03-19 18:42:07,756: Pipeline params :
+INFO: 2024-03-19 18:42:07,756: Pipeline params :
+INFO: 2024-03-19 18:42:07,757: Data : Animal Feed Dataset , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:07,757: Data : Animal Feed Dataset , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:07,757: Data : Animal Feed Dataset , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:07,757: Data : Animal Feed Dataset , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2024-03-19 18:42:07,758: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:07,758: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:07,758: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:07,758: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:42:07,759: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:07,759: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:07,759: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:07,759: [PRE PROCESSING]
+INFO: 2024-03-19 18:42:08,684: Least MSE from SAVGOL loop run 1.375427016073821
+INFO: 2024-03-19 18:42:08,684: Least MSE from SAVGOL loop run 1.375427016073821
+INFO: 2024-03-19 18:42:08,684: Least MSE from SAVGOL loop run 1.375427016073821
+INFO: 2024-03-19 18:42:08,684: Least MSE from SAVGOL loop run 1.375427016073821
+INFO: 2024-03-19 18:42:08,685: Best window size 45
+INFO: 2024-03-19 18:42:08,685: Best window size 45
+INFO: 2024-03-19 18:42:08,685: Best window size 45
+INFO: 2024-03-19 18:42:08,685: Best window size 45
+INFO: 2024-03-19 18:42:08,686: Best polyorder 10
+INFO: 2024-03-19 18:42:08,686: Best polyorder 10
+INFO: 2024-03-19 18:42:08,686: Best polyorder 10
+INFO: 2024-03-19 18:42:08,686: Best polyorder 10
+INFO: 2024-03-19 18:42:08,788: Elapsed time for pipeline run : 1.03
+INFO: 2024-03-19 18:42:08,788: Elapsed time for pipeline run : 1.03
+INFO: 2024-03-19 18:42:08,788: Elapsed time for pipeline run : 1.03
+INFO: 2024-03-19 18:42:08,788: Elapsed time for pipeline run : 1.03
+INFO: 2024-03-19 18:42:08,788: Pipeline end...
+INFO: 2024-03-19 18:42:08,788: Pipeline end...
+INFO: 2024-03-19 18:42:08,788: Pipeline end...
+INFO: 2024-03-19 18:42:08,788: Pipeline end...
+INFO: 2024-03-19 18:42:08,788: ************************************
+INFO: 2024-03-19 18:42:08,788: ************************************
+INFO: 2024-03-19 18:42:08,788: ************************************
+INFO: 2024-03-19 18:42:08,788: ************************************
+INFO: 2024-03-19 18:44:21,668: Pipeline Start...
+INFO: 2024-03-19 18:44:21,668: Pipeline Start...
+INFO: 2024-03-19 18:44:21,668: Pipeline Start...
+INFO: 2024-03-19 18:44:21,668: Pipeline Start...
+INFO: 2024-03-19 18:44:21,669: Parameters :
+INFO: 2024-03-19 18:44:21,669: Parameters :
+INFO: 2024-03-19 18:44:21,669: Parameters :
+INFO: 2024-03-19 18:44:21,669: Parameters :
+INFO: 2024-03-19 18:44:21,670: Data : Animal Feed data , Preprocessor : savgol0, Model : pls, Evaluator : mse, Validation type : stratified-kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:44:21,670: Data : Animal Feed data , Preprocessor : savgol0, Model : pls, Evaluator : mse, Validation type : stratified-kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:44:21,670: Data : Animal Feed data , Preprocessor : savgol0, Model : pls, Evaluator : mse, Validation type : stratified-kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:44:21,670: Data : Animal Feed data , Preprocessor : savgol0, Model : pls, Evaluator : mse, Validation type : stratified-kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:44:21,670: [PRE PROCESSING]
+INFO: 2024-03-19 18:44:21,670: [PRE PROCESSING]
+INFO: 2024-03-19 18:44:21,670: [PRE PROCESSING]
+INFO: 2024-03-19 18:44:21,670: [PRE PROCESSING]
+INFO: 2024-03-19 18:44:22,852: Least MSE from SAVGOL loop run 10.25515089570027
+INFO: 2024-03-19 18:44:22,852: Least MSE from SAVGOL loop run 10.25515089570027
+INFO: 2024-03-19 18:44:22,852: Least MSE from SAVGOL loop run 10.25515089570027
+INFO: 2024-03-19 18:44:22,852: Least MSE from SAVGOL loop run 10.25515089570027
+INFO: 2024-03-19 18:44:22,854: Best window size 60
+INFO: 2024-03-19 18:44:22,854: Best window size 60
+INFO: 2024-03-19 18:44:22,854: Best window size 60
+INFO: 2024-03-19 18:44:22,854: Best window size 60
+INFO: 2024-03-19 18:44:22,860: Best polyorder 10
+INFO: 2024-03-19 18:44:22,860: Best polyorder 10
+INFO: 2024-03-19 18:44:22,860: Best polyorder 10
+INFO: 2024-03-19 18:44:22,860: Best polyorder 10
+INFO: 2024-03-19 18:44:22,866: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 18:44:22,866: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 18:44:22,866: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 18:44:22,866: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 18:44:25,200: Optimized n_comp for PLS 2
+INFO: 2024-03-19 18:44:25,200: Optimized n_comp for PLS 2
+INFO: 2024-03-19 18:44:25,200: Optimized n_comp for PLS 2
+INFO: 2024-03-19 18:44:25,200: Optimized n_comp for PLS 2
+INFO: 2024-03-19 18:44:25,202: [MODEL EVALUATION]
+INFO: 2024-03-19 18:44:25,202: [MODEL EVALUATION]
+INFO: 2024-03-19 18:44:25,202: [MODEL EVALUATION]
+INFO: 2024-03-19 18:44:25,202: [MODEL EVALUATION]
+INFO: 2024-03-19 18:45:47,753: Pipeline Start...
+INFO: 2024-03-19 18:45:47,753: Pipeline Start...
+INFO: 2024-03-19 18:45:47,753: Pipeline Start...
+INFO: 2024-03-19 18:45:47,753: Pipeline Start...
+INFO: 2024-03-19 18:45:47,754: Parameters :
+INFO: 2024-03-19 18:45:47,754: Parameters :
+INFO: 2024-03-19 18:45:47,754: Parameters :
+INFO: 2024-03-19 18:45:47,754: Parameters :
+INFO: 2024-03-19 18:45:47,754: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : stratified-kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:45:47,754: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : stratified-kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:45:47,754: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : stratified-kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:45:47,754: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : stratified-kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 18:45:47,755: [PRE PROCESSING]
+INFO: 2024-03-19 18:45:47,755: [PRE PROCESSING]
+INFO: 2024-03-19 18:45:47,755: [PRE PROCESSING]
+INFO: 2024-03-19 18:45:47,755: [PRE PROCESSING]
+INFO: 2024-03-19 18:45:49,433: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 18:45:49,433: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 18:45:49,433: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 18:45:49,433: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 18:45:49,434: Best window size 15
+INFO: 2024-03-19 18:45:49,434: Best window size 15
+INFO: 2024-03-19 18:45:49,434: Best window size 15
+INFO: 2024-03-19 18:45:49,434: Best window size 15
+INFO: 2024-03-19 18:45:49,436: Best polyorder 14
+INFO: 2024-03-19 18:45:49,436: Best polyorder 14
+INFO: 2024-03-19 18:45:49,436: Best polyorder 14
+INFO: 2024-03-19 18:45:49,436: Best polyorder 14
+INFO: 2024-03-19 18:45:49,437: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 18:45:49,437: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 18:45:49,437: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 18:45:49,437: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 18:45:51,204: Optimized n_comp for PLS 4
+INFO: 2024-03-19 18:45:51,204: Optimized n_comp for PLS 4
+INFO: 2024-03-19 18:45:51,204: Optimized n_comp for PLS 4
+INFO: 2024-03-19 18:45:51,204: Optimized n_comp for PLS 4
+INFO: 2024-03-19 18:45:51,206: [MODEL EVALUATION]
+INFO: 2024-03-19 18:45:51,206: [MODEL EVALUATION]
+INFO: 2024-03-19 18:45:51,206: [MODEL EVALUATION]
+INFO: 2024-03-19 18:45:51,206: [MODEL EVALUATION]
+INFO: 2024-03-19 19:00:41,574: Pipeline Start...
+INFO: 2024-03-19 19:00:41,574: Pipeline Start...
+INFO: 2024-03-19 19:00:41,574: Pipeline Start...
+INFO: 2024-03-19 19:00:41,574: Pipeline Start...
+INFO: 2024-03-19 19:00:41,576: Parameters :
+INFO: 2024-03-19 19:00:41,576: Parameters :
+INFO: 2024-03-19 19:00:41,576: Parameters :
+INFO: 2024-03-19 19:00:41,576: Parameters :
+INFO: 2024-03-19 19:00:41,577: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:00:41,577: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:00:41,577: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:00:41,577: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:00:41,578: [PRE PROCESSING]
+INFO: 2024-03-19 19:00:41,578: [PRE PROCESSING]
+INFO: 2024-03-19 19:00:41,578: [PRE PROCESSING]
+INFO: 2024-03-19 19:00:41,578: [PRE PROCESSING]
+INFO: 2024-03-19 19:00:42,294: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:00:42,294: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:00:42,294: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:00:42,294: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:00:42,295: Best window size 15
+INFO: 2024-03-19 19:00:42,295: Best window size 15
+INFO: 2024-03-19 19:00:42,295: Best window size 15
+INFO: 2024-03-19 19:00:42,295: Best window size 15
+INFO: 2024-03-19 19:00:42,297: Best polyorder 14
+INFO: 2024-03-19 19:00:42,297: Best polyorder 14
+INFO: 2024-03-19 19:00:42,297: Best polyorder 14
+INFO: 2024-03-19 19:00:42,297: Best polyorder 14
+INFO: 2024-03-19 19:00:42,300: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:00:42,300: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:00:42,300: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:00:42,300: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:00:43,971: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:00:43,971: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:00:43,971: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:00:43,971: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:00:43,972: [MODEL EVALUATION]
+INFO: 2024-03-19 19:00:43,972: [MODEL EVALUATION]
+INFO: 2024-03-19 19:00:43,972: [MODEL EVALUATION]
+INFO: 2024-03-19 19:00:43,972: [MODEL EVALUATION]
+INFO: 2024-03-19 19:00:57,304: Pipeline Start...
+INFO: 2024-03-19 19:00:57,304: Pipeline Start...
+INFO: 2024-03-19 19:00:57,304: Pipeline Start...
+INFO: 2024-03-19 19:00:57,304: Pipeline Start...
+INFO: 2024-03-19 19:00:57,305: Parameters :
+INFO: 2024-03-19 19:00:57,305: Parameters :
+INFO: 2024-03-19 19:00:57,305: Parameters :
+INFO: 2024-03-19 19:00:57,305: Parameters :
+INFO: 2024-03-19 19:00:57,306: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:00:57,306: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:00:57,306: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:00:57,306: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:00:57,306: [PRE PROCESSING]
+INFO: 2024-03-19 19:00:57,306: [PRE PROCESSING]
+INFO: 2024-03-19 19:00:57,306: [PRE PROCESSING]
+INFO: 2024-03-19 19:00:57,306: [PRE PROCESSING]
+INFO: 2024-03-19 19:00:58,300: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:00:58,300: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:00:58,300: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:00:58,300: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:00:58,301: Best window size 15
+INFO: 2024-03-19 19:00:58,301: Best window size 15
+INFO: 2024-03-19 19:00:58,301: Best window size 15
+INFO: 2024-03-19 19:00:58,301: Best window size 15
+INFO: 2024-03-19 19:00:58,302: Best polyorder 14
+INFO: 2024-03-19 19:00:58,302: Best polyorder 14
+INFO: 2024-03-19 19:00:58,302: Best polyorder 14
+INFO: 2024-03-19 19:00:58,302: Best polyorder 14
+INFO: 2024-03-19 19:00:58,306: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:00:58,306: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:00:58,306: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:00:58,306: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:01:00,942: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:01:00,942: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:01:00,942: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:01:00,942: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:01:00,949: [MODEL EVALUATION]
+INFO: 2024-03-19 19:01:00,949: [MODEL EVALUATION]
+INFO: 2024-03-19 19:01:00,949: [MODEL EVALUATION]
+INFO: 2024-03-19 19:01:00,949: [MODEL EVALUATION]
+INFO: 2024-03-19 19:01:00,961: Model loss : 17.316047507444637
+INFO: 2024-03-19 19:01:00,961: Model loss : 17.316047507444637
+INFO: 2024-03-19 19:01:00,961: Model loss : 17.316047507444637
+INFO: 2024-03-19 19:01:00,961: Model loss : 17.316047507444637
+INFO: 2024-03-19 19:01:00,965: Elapsed time for pipeline run : 3.66
+INFO: 2024-03-19 19:01:00,965: Elapsed time for pipeline run : 3.66
+INFO: 2024-03-19 19:01:00,965: Elapsed time for pipeline run : 3.66
+INFO: 2024-03-19 19:01:00,965: Elapsed time for pipeline run : 3.66
+INFO: 2024-03-19 19:01:00,971: Pipeline end...
+INFO: 2024-03-19 19:01:00,971: Pipeline end...
+INFO: 2024-03-19 19:01:00,971: Pipeline end...
+INFO: 2024-03-19 19:01:00,971: Pipeline end...
+INFO: 2024-03-19 19:01:00,981: ************************************
+INFO: 2024-03-19 19:01:00,981: ************************************
+INFO: 2024-03-19 19:01:00,981: ************************************
+INFO: 2024-03-19 19:01:00,981: ************************************
+INFO: 2024-03-19 19:01:00,983: Pipeline Start...
+INFO: 2024-03-19 19:01:00,983: Pipeline Start...
+INFO: 2024-03-19 19:01:00,983: Pipeline Start...
+INFO: 2024-03-19 19:01:00,983: Pipeline Start...
+INFO: 2024-03-19 19:01:00,986: Parameters :
+INFO: 2024-03-19 19:01:00,986: Parameters :
+INFO: 2024-03-19 19:01:00,986: Parameters :
+INFO: 2024-03-19 19:01:00,986: Parameters :
+INFO: 2024-03-19 19:01:00,991: Data : Animal Feed data , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:01:00,991: Data : Animal Feed data , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:01:00,991: Data : Animal Feed data , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:01:00,991: Data : Animal Feed data , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:01:00,994: [PRE PROCESSING]
+INFO: 2024-03-19 19:01:00,994: [PRE PROCESSING]
+INFO: 2024-03-19 19:01:00,994: [PRE PROCESSING]
+INFO: 2024-03-19 19:01:00,994: [PRE PROCESSING]
+INFO: 2024-03-19 19:01:01,011: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:01:01,011: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:01:01,011: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:01:01,011: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:01:02,946: Optimized n_comp for PLS 6
+INFO: 2024-03-19 19:01:02,946: Optimized n_comp for PLS 6
+INFO: 2024-03-19 19:01:02,946: Optimized n_comp for PLS 6
+INFO: 2024-03-19 19:01:02,946: Optimized n_comp for PLS 6
+INFO: 2024-03-19 19:01:02,947: [MODEL EVALUATION]
+INFO: 2024-03-19 19:01:02,947: [MODEL EVALUATION]
+INFO: 2024-03-19 19:01:02,947: [MODEL EVALUATION]
+INFO: 2024-03-19 19:01:02,947: [MODEL EVALUATION]
+INFO: 2024-03-19 19:01:02,963: Model loss : 45.057627430625075
+INFO: 2024-03-19 19:01:02,963: Model loss : 45.057627430625075
+INFO: 2024-03-19 19:01:02,963: Model loss : 45.057627430625075
+INFO: 2024-03-19 19:01:02,963: Model loss : 45.057627430625075
+INFO: 2024-03-19 19:01:02,969: Elapsed time for pipeline run : 1.99
+INFO: 2024-03-19 19:01:02,969: Elapsed time for pipeline run : 1.99
+INFO: 2024-03-19 19:01:02,969: Elapsed time for pipeline run : 1.99
+INFO: 2024-03-19 19:01:02,969: Elapsed time for pipeline run : 1.99
+INFO: 2024-03-19 19:01:02,971: Pipeline end...
+INFO: 2024-03-19 19:01:02,971: Pipeline end...
+INFO: 2024-03-19 19:01:02,971: Pipeline end...
+INFO: 2024-03-19 19:01:02,971: Pipeline end...
+INFO: 2024-03-19 19:01:02,972: ************************************
+INFO: 2024-03-19 19:01:02,972: ************************************
+INFO: 2024-03-19 19:01:02,972: ************************************
+INFO: 2024-03-19 19:01:02,972: ************************************
+INFO: 2024-03-19 19:01:02,973: Pipeline Start...
+INFO: 2024-03-19 19:01:02,973: Pipeline Start...
+INFO: 2024-03-19 19:01:02,973: Pipeline Start...
+INFO: 2024-03-19 19:01:02,973: Pipeline Start...
+INFO: 2024-03-19 19:01:02,974: Parameters :
+INFO: 2024-03-19 19:01:02,974: Parameters :
+INFO: 2024-03-19 19:01:02,974: Parameters :
+INFO: 2024-03-19 19:01:02,974: Parameters :
+INFO: 2024-03-19 19:01:02,975: Data : Animal Feed data , Preprocessor : derivative, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:01:02,975: Data : Animal Feed data , Preprocessor : derivative, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:01:02,975: Data : Animal Feed data , Preprocessor : derivative, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:01:02,975: Data : Animal Feed data , Preprocessor : derivative, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:01:02,976: [PRE PROCESSING]
+INFO: 2024-03-19 19:01:02,976: [PRE PROCESSING]
+INFO: 2024-03-19 19:01:02,976: [PRE PROCESSING]
+INFO: 2024-03-19 19:01:02,976: [PRE PROCESSING]
+INFO: 2024-03-19 19:01:02,978: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:01:02,978: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:01:02,978: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:01:02,978: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:06:36,345: Pipeline Start...
+INFO: 2024-03-19 19:06:36,347: Parameters :
+INFO: 2024-03-19 19:06:36,348: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:06:36,348: [PRE PROCESSING]
+INFO: 2024-03-19 19:06:37,032: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:06:37,038: Best window size 15
+INFO: 2024-03-19 19:06:37,041: Best polyorder 14
+INFO: 2024-03-19 19:06:37,042: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:06:38,579: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:06:38,579: [MODEL EVALUATION]
+INFO: 2024-03-19 19:06:38,597: Model loss : 17.316047507444637
+INFO: 2024-03-19 19:06:38,598: Elapsed time for pipeline run : 2.25
+INFO: 2024-03-19 19:06:38,598: Pipeline end...
+INFO: 2024-03-19 19:06:38,599: ************************************
+INFO: 2024-03-19 19:06:38,599: Pipeline Start...
+INFO: 2024-03-19 19:06:38,600: Parameters :
+INFO: 2024-03-19 19:06:38,601: Data : Animal Feed data , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:06:38,601: [PRE PROCESSING]
+INFO: 2024-03-19 19:06:38,617: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:06:40,211: Optimized n_comp for PLS 6
+INFO: 2024-03-19 19:06:40,215: [MODEL EVALUATION]
+INFO: 2024-03-19 19:06:40,220: Model loss : 45.057627430625075
+INFO: 2024-03-19 19:06:40,226: Elapsed time for pipeline run : 1.63
+INFO: 2024-03-19 19:06:40,229: Pipeline end...
+INFO: 2024-03-19 19:06:40,231: ************************************
+INFO: 2024-03-19 19:06:40,239: Pipeline Start...
+INFO: 2024-03-19 19:06:40,241: Parameters :
+INFO: 2024-03-19 19:06:40,244: Data : Animal Feed data , Preprocessor : derivative, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:06:40,245: [PRE PROCESSING]
+INFO: 2024-03-19 19:06:40,254: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:06:41,833: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:06:41,834: [MODEL EVALUATION]
+INFO: 2024-03-19 19:06:41,847: Model loss : 17.79718121420769
+INFO: 2024-03-19 19:06:41,849: Elapsed time for pipeline run : 1.61
+INFO: 2024-03-19 19:06:41,855: Pipeline end...
+INFO: 2024-03-19 19:06:41,856: ************************************
+INFO: 2024-03-19 19:07:13,211: Pipeline Start...
+INFO: 2024-03-19 19:07:13,211: Parameters :
+INFO: 2024-03-19 19:07:13,212: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:07:13,212: [PRE PROCESSING]
+INFO: 2024-03-19 19:07:14,885: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:07:14,886: Best window size 15
+INFO: 2024-03-19 19:07:14,886: Best polyorder 14
+INFO: 2024-03-19 19:07:14,888: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:07:16,630: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:07:16,630: [MODEL EVALUATION]
+INFO: 2024-03-19 19:16:01,246: Pipeline Start...
+INFO: 2024-03-19 19:16:01,247: Parameters :
+INFO: 2024-03-19 19:16:01,248: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:16:01,248: [PRE PROCESSING]
+INFO: 2024-03-19 19:16:02,489: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:16:02,490: Best window size 15
+INFO: 2024-03-19 19:16:02,495: Best polyorder 14
+INFO: 2024-03-19 19:16:02,498: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:16:04,316: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:16:04,317: [MODEL EVALUATION]
+INFO: 2024-03-19 19:16:04,324: Model loss : 17.316047507444637
+INFO: 2024-03-19 19:16:04,324: Elapsed time for pipeline run : 3.08
+INFO: 2024-03-19 19:16:04,325: Pipeline end...
+INFO: 2024-03-19 19:16:04,326: ************************************
+INFO: 2024-03-19 19:16:04,326: Pipeline Start...
+INFO: 2024-03-19 19:16:04,327: Parameters :
+INFO: 2024-03-19 19:16:04,328: Data : Animal Feed data , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:16:04,329: [PRE PROCESSING]
+INFO: 2024-03-19 19:16:04,357: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:16:06,421: Optimized n_comp for PLS 6
+INFO: 2024-03-19 19:16:06,425: [MODEL EVALUATION]
+INFO: 2024-03-19 19:16:06,436: Model loss : 45.057627430625075
+INFO: 2024-03-19 19:16:06,438: Elapsed time for pipeline run : 2.11
+INFO: 2024-03-19 19:16:06,439: Pipeline end...
+INFO: 2024-03-19 19:16:06,440: ************************************
+INFO: 2024-03-19 19:16:06,441: Pipeline Start...
+INFO: 2024-03-19 19:16:06,442: Parameters :
+INFO: 2024-03-19 19:16:06,442: Data : Animal Feed data , Preprocessor : derivative, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:16:06,443: [PRE PROCESSING]
+INFO: 2024-03-19 19:16:06,449: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:16:08,104: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:16:08,105: [MODEL EVALUATION]
+INFO: 2024-03-19 19:16:08,111: Model loss : 17.79718121420769
+INFO: 2024-03-19 19:16:08,112: Elapsed time for pipeline run : 1.67
+INFO: 2024-03-19 19:16:08,112: Pipeline end...
+INFO: 2024-03-19 19:16:08,113: ************************************
+INFO: 2024-03-19 19:28:23,725: Pipeline Start...
+INFO: 2024-03-19 19:28:23,726: Parameters :
+INFO: 2024-03-19 19:28:23,726: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:28:23,727: [PRE PROCESSING]
+INFO: 2024-03-19 19:28:25,539: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:28:25,540: Best window size 15
+INFO: 2024-03-19 19:28:25,542: Best polyorder 14
+INFO: 2024-03-19 19:28:25,548: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:28:27,225: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:28:27,234: [MODEL EVALUATION]
+INFO: 2024-03-19 19:31:01,846: Pipeline Start...
+INFO: 2024-03-19 19:31:01,848: Parameters :
+INFO: 2024-03-19 19:31:01,848: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:31:01,849: [PRE PROCESSING]
+INFO: 2024-03-19 19:31:03,246: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:31:03,247: Best window size 15
+INFO: 2024-03-19 19:31:03,248: Best polyorder 14
+INFO: 2024-03-19 19:31:03,252: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:31:05,034: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:31:05,037: [MODEL EVALUATION]
+INFO: 2024-03-19 19:35:28,493: Pipeline Start...
+INFO: 2024-03-19 19:35:28,495: Parameters :
+INFO: 2024-03-19 19:35:28,496: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:35:28,496: [PRE PROCESSING]
+INFO: 2024-03-19 19:35:29,188: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:35:29,192: Best window size 15
+INFO: 2024-03-19 19:35:29,195: Best polyorder 14
+INFO: 2024-03-19 19:35:29,197: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:35:30,800: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:35:30,800: [MODEL EVALUATION]
+INFO: 2024-03-19 19:39:53,241: Pipeline Start...
+INFO: 2024-03-19 19:39:53,242: Parameters :
+INFO: 2024-03-19 19:39:53,243: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:39:53,243: [PRE PROCESSING]
+INFO: 2024-03-19 19:39:54,138: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:39:54,140: Best window size 15
+INFO: 2024-03-19 19:39:54,141: Best polyorder 14
+INFO: 2024-03-19 19:39:54,144: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:39:55,975: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:39:55,976: [MODEL EVALUATION]
+INFO: 2024-03-19 19:41:43,571: Pipeline Start...
+INFO: 2024-03-19 19:41:43,572: Parameters :
+INFO: 2024-03-19 19:41:43,573: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:41:43,574: [PRE PROCESSING]
+INFO: 2024-03-19 19:41:44,342: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:41:44,344: Best window size 15
+INFO: 2024-03-19 19:41:44,347: Best polyorder 14
+INFO: 2024-03-19 19:41:44,355: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:41:46,070: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:41:46,071: [MODEL EVALUATION]
+INFO: 2024-03-19 19:43:23,781: Pipeline Start...
+INFO: 2024-03-19 19:43:23,781: Pipeline Start...
+INFO: 2024-03-19 19:43:23,783: Parameters :
+INFO: 2024-03-19 19:43:23,783: Parameters :
+INFO: 2024-03-19 19:43:23,784: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:43:23,784: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:43:23,784: [PRE PROCESSING]
+INFO: 2024-03-19 19:43:23,784: [PRE PROCESSING]
+INFO: 2024-03-19 19:43:24,428: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:43:24,428: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:43:24,429: Best window size 15
+INFO: 2024-03-19 19:43:24,429: Best window size 15
+INFO: 2024-03-19 19:43:24,430: Best polyorder 14
+INFO: 2024-03-19 19:43:24,430: Best polyorder 14
+INFO: 2024-03-19 19:43:24,430: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:43:24,430: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:43:26,066: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:43:26,066: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:43:26,071: [MODEL EVALUATION]
+INFO: 2024-03-19 19:43:26,071: [MODEL EVALUATION]
+INFO: 2024-03-19 19:43:54,505: Pipeline Start...
+INFO: 2024-03-19 19:43:54,506: Parameters :
+INFO: 2024-03-19 19:43:54,506: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:43:54,507: [PRE PROCESSING]
+INFO: 2024-03-19 19:43:55,748: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:43:55,749: Best window size 15
+INFO: 2024-03-19 19:43:55,750: Best polyorder 14
+INFO: 2024-03-19 19:43:55,752: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:43:57,635: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:43:57,637: [MODEL EVALUATION]
+INFO: 2024-03-19 19:45:37,149: Pipeline Start...
+INFO: 2024-03-19 19:45:37,149: Parameters :
+INFO: 2024-03-19 19:45:37,150: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:45:37,150: [PRE PROCESSING]
+INFO: 2024-03-19 19:45:38,302: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 19:45:38,303: Best window size 15
+INFO: 2024-03-19 19:45:38,305: Best polyorder 14
+INFO: 2024-03-19 19:45:38,307: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:45:39,964: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:45:39,965: [MODEL EVALUATION]
+INFO: 2024-03-19 19:45:39,973: Model loss : 17.316047507444637
+INFO: 2024-03-19 19:45:39,974: Elapsed time for pipeline run : 2.82
+INFO: 2024-03-19 19:45:39,974: Pipeline end...
+INFO: 2024-03-19 19:45:39,975: ************************************
+INFO: 2024-03-19 19:45:39,976: Pipeline Start...
+INFO: 2024-03-19 19:45:39,977: Parameters :
+INFO: 2024-03-19 19:45:39,977: Data : Animal Feed data , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:45:39,978: [PRE PROCESSING]
+INFO: 2024-03-19 19:45:39,987: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:45:41,790: Optimized n_comp for PLS 6
+INFO: 2024-03-19 19:45:41,791: [MODEL EVALUATION]
+INFO: 2024-03-19 19:45:41,800: Model loss : 45.057627430625075
+INFO: 2024-03-19 19:45:41,802: Elapsed time for pipeline run : 1.83
+INFO: 2024-03-19 19:45:41,802: Pipeline end...
+INFO: 2024-03-19 19:45:41,803: ************************************
+INFO: 2024-03-19 19:45:41,803: Pipeline Start...
+INFO: 2024-03-19 19:45:41,806: Parameters :
+INFO: 2024-03-19 19:45:41,810: Data : Animal Feed data , Preprocessor : derivative, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 19:45:41,812: [PRE PROCESSING]
+INFO: 2024-03-19 19:45:41,821: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 19:45:43,718: Optimized n_comp for PLS 4
+INFO: 2024-03-19 19:45:43,723: [MODEL EVALUATION]
+INFO: 2024-03-19 19:45:43,746: Model loss : 17.79718121420769
+INFO: 2024-03-19 19:45:43,751: Elapsed time for pipeline run : 1.95
+INFO: 2024-03-19 19:45:43,752: Pipeline end...
+INFO: 2024-03-19 19:45:43,754: ************************************
+INFO: 2024-03-19 19:52:00,942: ************************************
+INFO: 2024-03-19 19:52:00,944: Pipeline Start...
+INFO: 2024-03-19 19:52:00,945: Pipeline params :
+INFO: 2024-03-19 19:52:00,952: Data : (      999.9     1000.3    1000.7    1001.1    1001.4    1001.8    1002.2  \
+14  0.355074  0.354783  0.354731  0.355066  0.355053  0.354484  0.354154   
+12  0.350766  0.350485  0.350260  0.350422  0.350341  0.349795  0.349686   
+16  0.382588  0.382196  0.381993  0.381822  0.381621  0.381428  0.381258   
+4   0.331015  0.330539  0.330626  0.331188  0.331278  0.330884  0.331033   
+25  0.402101  0.401462  0.401192  0.401379  0.401099  0.400826  0.401034   
+8   0.336032  0.335581  0.335550  0.335742  0.335700  0.335379  0.335292   
+5   0.328413  0.327891  0.327994  0.328306  0.328105  0.327753  0.327832   
+15  0.359723  0.359335  0.359168  0.359606  0.359521  0.358849  0.358608   
+18  0.375334  0.374611  0.374622  0.374967  0.374812  0.374231  0.374129   
+6   0.364254  0.363403  0.363423  0.363432  0.363354  0.363343  0.363603   
+7   0.356825  0.356121  0.355790  0.356126  0.356066  0.355888  0.355877   
+23  0.383344  0.383025  0.383162  0.383384  0.383463  0.383070  0.382921   
+20  0.390872  0.390602  0.390631  0.390810  0.390978  0.390415  0.390398   
+24  0.418394  0.417492  0.417343  0.417742  0.417825  0.417379  0.416900   
+21  0.386127  0.385998  0.385901  0.386063  0.386195  0.385654  0.385496   
+27  0.407671  0.406737  0.406754  0.406745  0.406834  0.406514  0.406293   
+10   0.35786  0.356977  0.356935  0.357222  0.357102  0.356827  0.356775   
+13  0.358902  0.358619  0.358168  0.358452  0.358676  0.358180  0.357839   
+17  0.393754  0.393376  0.393196  0.393177  0.393223  0.392840  0.392489   
+22  0.388099  0.387553  0.387443  0.387668  0.387797  0.387200  0.386966   
+9   0.328599  0.328017  0.327898  0.328303  0.328333  0.327963  0.328196   
+
+      1002.6    1003.0    1003.4  ...    2478.7    2481.1    2483.5    2485.8  \
+14  0.354069  0.353967  0.353575  ...  1.111233  1.112620  1.114259  1.115287   
+12  0.349623  0.349409  0.349041  ...  1.123034  1.124413  1.125967  1.126959   
+16  0.381281  0.381664  0.381161  ...  1.091912  1.093057  1.094802  1.096128   
+4   0.331525  0.331207  0.330516  ...  1.016605  1.017554  1.019159  1.020301   
+25  0.401145  0.401114  0.400756  ...  1.095774  1.097075  1.099027  1.100488   
+8   0.335135  0.335279  0.334942  ...  0.994290  0.995182  0.997006  0.998333   
+5   0.328038  0.327956  0.327581  ...  1.010864  1.011899  1.013540  1.014654   
+15  0.358551  0.358413  0.357995  ...  1.131566  1.132989  1.134647  1.135665   
+18  0.374356  0.374706  0.374498  ...  1.056120  1.057369  1.059282  1.060638   
+6   0.363589  0.363664  0.363387  ...  1.058569  1.059947  1.061680  1.063182   
+7   0.355720  0.355841  0.355583  ...  1.063016  1.064380  1.065958  1.067308   
+23  0.383218  0.383186  0.382748  ...  1.218287  1.219655  1.221401  1.222776   
+20  0.390665  0.390331  0.389791  ...  1.195593  1.197263  1.199256  1.200515   
+24  0.416890  0.417038  0.416706  ...  1.135374  1.136878  1.138815  1.140255   
+21  0.385902  0.385806  0.385206  ...  1.178130  1.179360  1.181165  1.182703   
+27  0.406479  0.406468  0.406239  ...  1.133418  1.134793  1.136952  1.138679   
+10  0.356830  0.356953  0.356627  ...  1.030233  1.031487  1.033302  1.034501   
+13  0.357822  0.357636  0.357233  ...  1.152272  1.153792  1.155457  1.156541   
+17  0.392488  0.392789  0.392208  ...  1.128790  1.129745  1.131151  1.132589   
+22  0.387360  0.387263  0.386873  ...  1.202788  1.204152  1.205890  1.207150   
+9   0.328365  0.328490  0.328241  ...  0.986951  0.988106  0.989821  0.991081   
+
+      2488.2    2490.6    2493.0    2495.4    2497.8    2500.2  
+14  1.114312  1.112194  1.110394  1.109123  1.108352  1.107510  
+12  1.126041  1.123854  1.121877  1.120383  1.119485  1.118764  
+16  1.094316  1.091248  1.088880  1.087100  1.086154  1.085258  
+4   1.019158  1.016673  1.014610  1.013049  1.012243  1.011416  
+25  1.099043  1.095798  1.093323  1.091836  1.090747  1.089935  
+8   0.996710  0.993534  0.990946  0.989365  0.988572  0.987537  
+5   1.013536  1.010929  1.008814  1.007408  1.006742  1.005864  
+15  1.134661  1.132545  1.130520  1.129177  1.128405  1.127726  
+18  1.059132  1.056054  1.053591  1.052103  1.051294  1.050274  
+6   1.062010  1.059022  1.056672  1.055218  1.054461  1.053585  
+7   1.066580  1.064403  1.062416  1.060962  1.060238  1.059471  
+23  1.221704  1.219236  1.217002  1.215280  1.214539  1.213835  
+20  1.199576  1.197606  1.195740  1.194598  1.194059  1.193291  
+24  1.138758  1.135448  1.132744  1.131023  1.130020  1.129058  
+21  1.181614  1.179216  1.177147  1.175787  1.175030  1.174494  
+27  1.136980  1.133299  1.130190  1.128513  1.127849  1.126852  
+10  1.033289  1.030743  1.028626  1.027070  1.026297  1.025226  
+13  1.155688  1.153822  1.152081  1.150716  1.149764  1.149162  
+17  1.131422  1.128082  1.125288  1.123513  1.122394  1.121358  
+22  1.206107  1.203798  1.201948  1.200745  1.199968  1.199207  
+9   0.989573  0.986562  0.984260  0.982664  0.981825  0.980763  
+
+[21 rows x 1557 columns],       999.9     1000.3    1000.7    1001.1    1001.4    1001.8    1002.2  \
+11  0.363126   0.36282  0.362565  0.362744  0.362529  0.361947  0.361699   
+19  0.391478  0.390833  0.390664  0.390746  0.390676  0.390371  0.390420   
+3     0.3344  0.333951  0.333975  0.334253  0.334334  0.333811  0.333808   
+26  0.411503  0.410444  0.410396  0.410905  0.411189  0.410896  0.410546   
+
+      1002.6    1003.0    1003.4  ...    2478.7    2481.1    2483.5    2485.8  \
+11  0.361689  0.361634  0.361400  ...  1.195598  1.196994  1.198687  1.199838   
+19  0.390531  0.390506  0.390199  ...  1.116328  1.117450  1.119069  1.120373   
+3   0.333986  0.333640  0.332990  ...  1.010848  1.012057  1.013692  1.014566   
+26  0.410408  0.410609  0.410217  ...  1.152211  1.153497  1.155205  1.156606   
+
+      2488.2    2490.6    2493.0    2495.4    2497.8    2500.2  
+11  1.198619  1.196292  1.194141  1.192414  1.191339  1.190564  
+19  1.119104  1.116242  1.113746  1.112102  1.111258  1.110193  
+3   1.013554  1.011503  1.009936  1.008792  1.007933  1.007107  
+26  1.155264  1.151955  1.149207  1.147455  1.146591  1.145556  
+
+[4 rows x 1557 columns], 14    56.09
+12    53.08
+16    56.01
+4     52.97
+25     56.6
+8     54.25
+5     52.19
+15     57.9
+18    63.37
+6     52.16
+7     50.34
+23    55.41
+20    64.58
+24    55.85
+21    62.99
+27    57.31
+10    54.75
+13    57.28
+17    54.21
+22    63.15
+9     54.15
+Name: IVOMD, dtype: object, 11    55.85
+19    62.81
+3     51.69
+26    57.39
+Name: IVOMD, dtype: object) , Preprocessor : msc, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 19:52:00,952: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 19:52:23,790: ************************************
+INFO: 2024-03-19 19:52:23,792: Pipeline Start...
+INFO: 2024-03-19 19:52:23,793: Pipeline params :
+INFO: 2024-03-19 19:52:23,794: Data : Animal Dataset , Preprocessor : msc, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 19:52:23,794: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 19:52:32,417: ************************************
+INFO: 2024-03-19 19:52:32,418: Pipeline Start...
+INFO: 2024-03-19 19:52:32,418: Pipeline params :
+INFO: 2024-03-19 19:52:32,419: Data : Animal Dataset , Preprocessor : msc, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 19:52:32,419: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 19:53:11,142: ************************************
+INFO: 2024-03-19 19:53:11,143: Pipeline Start...
+INFO: 2024-03-19 19:53:11,144: Pipeline params :
+INFO: 2024-03-19 19:53:11,144: Data : Animal Dataset , Preprocessor : savgol1, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 19:53:11,145: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 19:53:47,053: ************************************
+INFO: 2024-03-19 19:53:47,054: Pipeline Start...
+INFO: 2024-03-19 19:53:47,055: Pipeline params :
+INFO: 2024-03-19 19:53:47,056: Data : Animal Dataset , Preprocessor : snv, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 19:53:47,056: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 19:53:47,114: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 19:55:07,805: ************************************
+INFO: 2024-03-19 19:55:07,806: Pipeline Start...
+INFO: 2024-03-19 19:55:07,807: Pipeline params :
+INFO: 2024-03-19 19:55:07,808: Data : Animal Dataset , Preprocessor : derivative, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 19:55:07,809: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 19:56:00,401: ************************************
+INFO: 2024-03-19 19:56:00,402: Pipeline Start...
+INFO: 2024-03-19 19:56:00,403: Pipeline params :
+INFO: 2024-03-19 19:56:00,404: Data : Animal Dataset , Preprocessor : derivative, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 19:56:00,405: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 19:56:00,441: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 19:56:18,856: ************************************
+INFO: 2024-03-19 19:56:18,857: Pipeline Start...
+INFO: 2024-03-19 19:56:18,858: Pipeline params :
+INFO: 2024-03-19 19:56:18,859: Data : Animal Dataset , Preprocessor : snv, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 19:56:18,859: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 19:56:18,905: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:06:36,590: ************************************
+INFO: 2024-03-19 21:06:36,593: Pipeline Start...
+INFO: 2024-03-19 21:06:36,594: Pipeline params :
+INFO: 2024-03-19 21:06:36,595: Data : Animal Dataset , Preprocessor : derivative, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 21:06:36,595: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:06:36,636: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:07:09,498: ************************************
+INFO: 2024-03-19 21:07:09,499: Pipeline Start...
+INFO: 2024-03-19 21:07:09,500: Pipeline params :
+INFO: 2024-03-19 21:07:09,501: Data : Animal Dataset , Preprocessor : snv, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 21:07:09,502: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:07:09,582: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:09:34,459: ************************************
+INFO: 2024-03-19 21:09:34,460: Pipeline Start...
+INFO: 2024-03-19 21:09:34,460: Pipeline params :
+INFO: 2024-03-19 21:09:34,461: Data : Animal Dataset , Preprocessor : snv, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 21:09:34,461: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:09:34,522: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:10:40,505: Optimized alpha value for Lasso 0.032833594599312815
+INFO: 2024-03-19 21:10:40,507: [MODEL EVALUATION]
+INFO: 2024-03-19 21:10:40,535: Model loss : 13.610512011163614
+INFO: 2024-03-19 21:10:40,541: Elapsed time for pipeline run : 66.08
+INFO: 2024-03-19 21:10:40,549: Pipeline end...
+INFO: 2024-03-19 21:10:40,552: ************************************
+INFO: 2024-03-19 21:12:27,360: ************************************
+INFO: 2024-03-19 21:12:27,361: Pipeline Start...
+INFO: 2024-03-19 21:12:27,362: Pipeline params :
+INFO: 2024-03-19 21:12:27,362: Data : Animal Dataset , Preprocessor : snv, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 21:12:27,363: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:12:27,414: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:19:02,232: Optimized alpha value for Lasso 0.030620720213525948
+INFO: 2024-03-19 21:19:02,234: [MODEL EVALUATION]
+INFO: 2024-03-19 21:19:02,285: Model loss : 13.584201736626893
+INFO: 2024-03-19 21:19:02,288: Elapsed time for pipeline run : 394.94
+INFO: 2024-03-19 21:19:02,290: Pipeline end...
+INFO: 2024-03-19 21:19:02,291: ************************************
+INFO: 2024-03-19 21:23:25,415: ************************************
+INFO: 2024-03-19 21:23:25,416: Pipeline Start...
+INFO: 2024-03-19 21:23:25,416: Pipeline params :
+INFO: 2024-03-19 21:23:25,417: Data : Animal Dataset , Preprocessor : derivative, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 21:23:25,417: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:23:25,441: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:23:32,570: Optimized alpha value for Lasso 4.276537298333958e-05
+INFO: 2024-03-19 21:23:32,575: [MODEL EVALUATION]
+INFO: 2024-03-19 21:23:32,606: Model loss : 30.726011285837817
+INFO: 2024-03-19 21:23:32,611: Elapsed time for pipeline run : 7.2
+INFO: 2024-03-19 21:23:32,621: Pipeline end...
+INFO: 2024-03-19 21:23:32,627: ************************************
+INFO: 2024-03-19 21:24:04,075: ************************************
+INFO: 2024-03-19 21:24:04,076: Pipeline Start...
+INFO: 2024-03-19 21:24:04,077: Pipeline params :
+INFO: 2024-03-19 21:24:04,078: Data : Animal Dataset , Preprocessor : snv, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 21:24:04,079: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:24:04,114: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:25:16,928: Optimized alpha value for Lasso 0.0011528504596167773
+INFO: 2024-03-19 21:25:16,932: [MODEL EVALUATION]
+INFO: 2024-03-19 21:25:16,978: Model loss : 33.265208970439204
+INFO: 2024-03-19 21:25:16,986: Elapsed time for pipeline run : 72.91
+INFO: 2024-03-19 21:25:16,991: Pipeline end...
+INFO: 2024-03-19 21:25:16,994: ************************************
+INFO: 2024-03-19 21:29:35,134: ************************************
+INFO: 2024-03-19 21:29:35,134: Pipeline Start...
+INFO: 2024-03-19 21:29:35,135: Pipeline params :
+INFO: 2024-03-19 21:29:35,135: Data : Animal Feed , Preprocessor : derivative, Model : randomforests, Evaluator : mse
+INFO: 2024-03-19 21:29:35,135: Validation type : grid-search-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:29:35,136: [PRE PROCESSING]
+INFO: 2024-03-19 21:29:35,139: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:29:41,635: Optimized hyper-params for RandomForests {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+INFO: 2024-03-19 21:29:41,635: [MODEL EVALUATION]
+INFO: 2024-03-19 21:30:21,652: ************************************
+INFO: 2024-03-19 21:30:21,654: Pipeline Start...
+INFO: 2024-03-19 21:30:21,655: Pipeline params :
+INFO: 2024-03-19 21:30:21,656: Data : Animal Feed , Preprocessor : snv, Model : randomforests, Evaluator : mse
+INFO: 2024-03-19 21:30:21,658: Validation type : grid-search-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:30:21,658: [PRE PROCESSING]
+INFO: 2024-03-19 21:30:21,670: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:30:27,328: Optimized hyper-params for RandomForests {'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+INFO: 2024-03-19 21:30:27,329: [MODEL EVALUATION]
+INFO: 2024-03-19 21:31:32,731: ************************************
+INFO: 2024-03-19 21:31:32,734: Pipeline Start...
+INFO: 2024-03-19 21:31:32,735: Pipeline params :
+INFO: 2024-03-19 21:31:32,736: Data : Animal Feed , Preprocessor : snv, Model : randomforests, Evaluator : mse
+INFO: 2024-03-19 21:31:32,737: Validation type : grid-search-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:31:32,738: [PRE PROCESSING]
+INFO: 2024-03-19 21:31:32,758: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:31:38,050: Optimized hyper-params for RandomForests {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+INFO: 2024-03-19 21:31:38,051: [MODEL EVALUATION]
+INFO: 2024-03-19 21:31:53,211: ************************************
+INFO: 2024-03-19 21:31:53,213: Pipeline Start...
+INFO: 2024-03-19 21:31:53,214: Pipeline params :
+INFO: 2024-03-19 21:31:53,214: Data : Animal Dataset , Preprocessor : snv, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 21:31:53,215: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:31:53,295: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:32:58,396: Optimized alpha value for Lasso 0.0004186244951785574
+INFO: 2024-03-19 21:32:58,397: [MODEL EVALUATION]
+INFO: 2024-03-19 21:32:58,438: Model loss : 38.72298612357495
+INFO: 2024-03-19 21:32:58,450: Elapsed time for pipeline run : 65.24
+INFO: 2024-03-19 21:32:58,451: Pipeline end...
+INFO: 2024-03-19 21:32:58,452: ************************************
+INFO: 2024-03-19 21:32:58,463: Pipeline Start...
+INFO: 2024-03-19 21:32:58,464: Parameters :
+INFO: 2024-03-19 21:32:58,465: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 21:32:58,466: [PRE PROCESSING]
+INFO: 2024-03-19 21:32:59,312: Least MSE from SAVGOL loop run 2.2901143935150063
+INFO: 2024-03-19 21:32:59,313: Best window size 15
+INFO: 2024-03-19 21:32:59,315: Best polyorder 14
+INFO: 2024-03-19 21:32:59,318: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 21:33:01,381: Optimized n_comp for PLS 4
+INFO: 2024-03-19 21:33:01,382: [MODEL EVALUATION]
+INFO: 2024-03-19 21:33:01,388: Model loss : 13.609800120670412
+INFO: 2024-03-19 21:33:01,389: Elapsed time for pipeline run : 2.93
+INFO: 2024-03-19 21:33:01,390: Pipeline end...
+INFO: 2024-03-19 21:33:01,390: ************************************
+INFO: 2024-03-19 21:33:01,391: Pipeline Start...
+INFO: 2024-03-19 21:33:01,391: Parameters :
+INFO: 2024-03-19 21:33:01,392: Data : Animal Feed data , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 21:33:01,393: [PRE PROCESSING]
+INFO: 2024-03-19 21:33:01,402: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 21:33:03,470: Optimized n_comp for PLS 6
+INFO: 2024-03-19 21:33:03,471: [MODEL EVALUATION]
+INFO: 2024-03-19 21:33:03,483: Model loss : 37.10141843795412
+INFO: 2024-03-19 21:33:03,485: Elapsed time for pipeline run : 2.09
+INFO: 2024-03-19 21:33:03,486: Pipeline end...
+INFO: 2024-03-19 21:33:03,488: ************************************
+INFO: 2024-03-19 21:33:03,489: Pipeline Start...
+INFO: 2024-03-19 21:33:03,490: Parameters :
+INFO: 2024-03-19 21:33:03,490: Data : Animal Feed data , Preprocessor : derivative, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 21:33:03,491: [PRE PROCESSING]
+INFO: 2024-03-19 21:33:03,495: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 21:33:05,999: Optimized n_comp for PLS 1
+INFO: 2024-03-19 21:33:06,000: [MODEL EVALUATION]
+INFO: 2024-03-19 21:33:06,009: Model loss : 10.925809392449358
+INFO: 2024-03-19 21:33:06,012: Elapsed time for pipeline run : 2.52
+INFO: 2024-03-19 21:33:06,013: Pipeline end...
+INFO: 2024-03-19 21:33:06,014: ************************************
+INFO: 2024-03-19 21:33:58,911: ************************************
+INFO: 2024-03-19 21:33:58,913: Pipeline Start...
+INFO: 2024-03-19 21:33:58,914: Pipeline params :
+INFO: 2024-03-19 21:33:58,914: Data : Animal Feed , Preprocessor : snv, Model : randomforests, Evaluator : mse
+INFO: 2024-03-19 21:33:58,915: Validation type : grid-search-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:33:58,916: [PRE PROCESSING]
+INFO: 2024-03-19 21:33:58,933: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:34:04,217: Optimized hyper-params for RandomForests {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 100}
+INFO: 2024-03-19 21:34:04,217: [MODEL EVALUATION]
+INFO: 2024-03-19 21:34:29,834: ************************************
+INFO: 2024-03-19 21:34:29,835: Pipeline Start...
+INFO: 2024-03-19 21:34:29,836: Pipeline params :
+INFO: 2024-03-19 21:34:29,836: Data : Animal Feed , Preprocessor : snv, Model : randomforests, Evaluator : mse
+INFO: 2024-03-19 21:34:29,837: Validation type : grid-search-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:34:29,837: [PRE PROCESSING]
+INFO: 2024-03-19 21:34:29,846: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:34:35,638: Optimized hyper-params for RandomForests {'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+INFO: 2024-03-19 21:34:35,639: [MODEL EVALUATION]
+INFO: 2024-03-19 21:35:04,410: Pipeline Start...
+INFO: 2024-03-19 21:35:04,411: Parameters :
+INFO: 2024-03-19 21:35:04,411: Data : Animal Feed data , Preprocessor : savgol1, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 21:35:04,412: [PRE PROCESSING]
+INFO: 2024-03-19 21:35:05,649: Least MSE from SAVGOL loop run 0.17889203671922707
+INFO: 2024-03-19 21:35:05,650: Best window size 15
+INFO: 2024-03-19 21:35:05,650: Best polyorder 14
+INFO: 2024-03-19 21:35:05,651: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 21:35:07,725: Optimized n_comp for PLS 4
+INFO: 2024-03-19 21:35:07,726: [MODEL EVALUATION]
+INFO: 2024-03-19 21:35:07,740: Model loss : 0.989454687779659
+INFO: 2024-03-19 21:35:07,741: Elapsed time for pipeline run : 3.33
+INFO: 2024-03-19 21:35:07,742: Pipeline end...
+INFO: 2024-03-19 21:35:07,743: ************************************
+INFO: 2024-03-19 21:35:07,744: Pipeline Start...
+INFO: 2024-03-19 21:35:07,745: Parameters :
+INFO: 2024-03-19 21:35:07,746: Data : Animal Feed data , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 21:35:07,746: [PRE PROCESSING]
+INFO: 2024-03-19 21:35:07,759: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 21:35:10,004: Optimized n_comp for PLS 9
+INFO: 2024-03-19 21:35:10,007: [MODEL EVALUATION]
+INFO: 2024-03-19 21:35:10,020: Model loss : 1.0264308427532856
+INFO: 2024-03-19 21:35:10,029: Elapsed time for pipeline run : 2.29
+INFO: 2024-03-19 21:35:10,030: Pipeline end...
+INFO: 2024-03-19 21:35:10,031: ************************************
+INFO: 2024-03-19 21:35:10,032: Pipeline Start...
+INFO: 2024-03-19 21:35:10,033: Parameters :
+INFO: 2024-03-19 21:35:10,035: Data : Animal Feed data , Preprocessor : derivative, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 21:35:10,036: [PRE PROCESSING]
+INFO: 2024-03-19 21:35:10,040: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 21:35:11,955: Optimized n_comp for PLS 17
+INFO: 2024-03-19 21:35:11,960: [MODEL EVALUATION]
+INFO: 2024-03-19 21:35:11,978: Model loss : 0.9056192549002766
+INFO: 2024-03-19 21:35:11,981: Elapsed time for pipeline run : 1.95
+INFO: 2024-03-19 21:35:11,982: Pipeline end...
+INFO: 2024-03-19 21:35:11,983: ************************************
+INFO: 2024-03-19 21:36:57,043: ************************************
+INFO: 2024-03-19 21:36:57,045: Pipeline Start...
+INFO: 2024-03-19 21:36:57,046: Pipeline params :
+INFO: 2024-03-19 21:36:57,047: Data : Animal Dataset , Preprocessor : snv, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 21:36:57,048: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:36:57,099: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:38:47,967: Optimized alpha value for Lasso 4.961612143446677e-05
+INFO: 2024-03-19 21:38:47,970: [MODEL EVALUATION]
+INFO: 2024-03-19 21:38:48,028: Model loss : 1.4777145203831354
+INFO: 2024-03-19 21:38:48,031: Elapsed time for pipeline run : 110.99
+INFO: 2024-03-19 21:38:48,032: Pipeline end...
+INFO: 2024-03-19 21:38:48,033: ************************************
+INFO: 2024-03-19 21:39:13,771: ************************************
+INFO: 2024-03-19 21:39:13,772: Pipeline Start...
+INFO: 2024-03-19 21:39:13,773: Pipeline params :
+INFO: 2024-03-19 21:39:13,773: Data : Animal Dataset , Preprocessor : derivative, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 21:39:13,774: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:39:13,815: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 21:39:30,438: Optimized alpha value for Lasso 7.277757842363929e-05
+INFO: 2024-03-19 21:39:30,439: [MODEL EVALUATION]
+INFO: 2024-03-19 21:39:30,457: Model loss : 1.1484322656244759
+INFO: 2024-03-19 21:39:30,458: Elapsed time for pipeline run : 16.69
+INFO: 2024-03-19 21:39:30,459: Pipeline end...
+INFO: 2024-03-19 21:39:30,459: ************************************
+INFO: 2024-03-19 21:39:49,507: ************************************
+INFO: 2024-03-19 21:39:49,508: Pipeline Start...
+INFO: 2024-03-19 21:39:49,509: Pipeline params :
+INFO: 2024-03-19 21:39:49,510: Data : Animal Feed , Preprocessor : snv, Model : randomforests, Evaluator : mse
+INFO: 2024-03-19 21:39:49,511: Validation type : grid-search-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:39:49,512: [PRE PROCESSING]
+INFO: 2024-03-19 21:39:49,529: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:39:56,422: Optimized hyper-params for RandomForests {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+INFO: 2024-03-19 21:39:56,422: [MODEL EVALUATION]
+INFO: 2024-03-19 21:40:34,663: ************************************
+INFO: 2024-03-19 21:40:34,665: Pipeline Start...
+INFO: 2024-03-19 21:40:34,666: Pipeline params :
+INFO: 2024-03-19 21:40:34,667: Data : Animal Feed , Preprocessor : derivative, Model : randomforests, Evaluator : mse
+INFO: 2024-03-19 21:40:34,667: Validation type : grid-search-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:40:34,668: [PRE PROCESSING]
+INFO: 2024-03-19 21:40:34,671: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:40:40,080: Optimized hyper-params for RandomForests {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+INFO: 2024-03-19 21:40:40,081: [MODEL EVALUATION]
+INFO: 2024-03-19 21:42:58,322: ************************************
+INFO: 2024-03-19 21:42:58,323: Pipeline Start...
+INFO: 2024-03-19 21:42:58,323: Pipeline params :
+INFO: 2024-03-19 21:42:58,324: Data : Animal Feed  , Preprocessor : savgol1, Model : svr, Evaluator : mse
+INFO: 2024-03-19 21:42:58,324: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:42:58,324: [PRE PROCESSING]
+INFO: 2024-03-19 21:43:00,143: Least MSE from SAVGOL loop run 0.17889203671922707
+INFO: 2024-03-19 21:43:00,143: Best window size 15
+INFO: 2024-03-19 21:43:00,144: Best polyorder 14
+INFO: 2024-03-19 21:43:00,145: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:43:53,874: ************************************
+INFO: 2024-03-19 21:43:53,875: Pipeline Start...
+INFO: 2024-03-19 21:43:53,875: Pipeline params :
+INFO: 2024-03-19 21:43:53,876: Data : Animal Feed  , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 21:43:53,876: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:43:53,876: [PRE PROCESSING]
+INFO: 2024-03-19 21:43:53,885: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:44:07,843: ************************************
+INFO: 2024-03-19 21:44:07,844: Pipeline Start...
+INFO: 2024-03-19 21:44:07,845: Pipeline params :
+INFO: 2024-03-19 21:44:07,846: Data : Animal Feed  , Preprocessor : derivative, Model : svr, Evaluator : mse
+INFO: 2024-03-19 21:44:07,846: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:44:07,847: [PRE PROCESSING]
+INFO: 2024-03-19 21:44:07,850: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:44:38,736: ************************************
+INFO: 2024-03-19 21:44:38,737: Pipeline Start...
+INFO: 2024-03-19 21:44:38,737: Pipeline params :
+INFO: 2024-03-19 21:44:38,738: Data : Animal Feed  , Preprocessor : derivative, Model : svr, Evaluator : mse
+INFO: 2024-03-19 21:44:38,738: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:44:38,738: [PRE PROCESSING]
+INFO: 2024-03-19 21:44:38,743: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:45:03,421: ************************************
+INFO: 2024-03-19 21:45:03,422: Pipeline Start...
+INFO: 2024-03-19 21:45:03,422: Pipeline params :
+INFO: 2024-03-19 21:45:03,423: Data : Animal Feed  , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 21:45:03,423: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:45:03,424: [PRE PROCESSING]
+INFO: 2024-03-19 21:45:03,432: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 21:45:20,792: ************************************
+INFO: 2024-03-19 21:45:20,793: Pipeline Start...
+INFO: 2024-03-19 21:45:20,794: Pipeline params :
+INFO: 2024-03-19 21:45:20,794: Data : Animal Feed  , Preprocessor : savgol1, Model : svr, Evaluator : mse
+INFO: 2024-03-19 21:45:20,795: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 21:45:20,795: [PRE PROCESSING]
+INFO: 2024-03-19 21:45:22,122: Least MSE from SAVGOL loop run 2.6345920162862506
+INFO: 2024-03-19 21:45:22,122: Best window size 15
+INFO: 2024-03-19 21:45:22,123: Best polyorder 14
+INFO: 2024-03-19 21:45:22,124: [VALIDATION AND HYPERPARAMETER TUNING]
