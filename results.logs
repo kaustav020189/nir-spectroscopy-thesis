@@ -5057,3 +5057,389 @@ INFO: 2024-03-19 19:42:09,248: Best polyorder 2
 INFO: 2024-03-19 19:42:09,248: Best polyorder 2
 INFO: 2024-03-19 19:42:09,400: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
 INFO: 2024-03-19 19:42:09,400: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 22:48:00,419: ************************************
+INFO: 2024-03-19 22:48:00,420: Pipeline Start...
+INFO: 2024-03-19 22:48:00,420: Pipeline params :
+INFO: 2024-03-19 22:48:00,421: Data : data/beer_dataset.csv , Preprocessor : derivative, Model : svr, Evaluator : mse
+INFO: 2024-03-19 22:48:00,421: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 22:48:00,422: [PRE PROCESSING]
+INFO: 2024-03-19 22:48:00,428: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 22:48:02,059: Optimized hyper-params for SVR {'C': 10, 'epsilon': 0.5, 'kernel': 'poly'}
+INFO: 2024-03-19 22:48:02,060: [MODEL EVALUATION]
+INFO: 2024-03-19 22:48:02,213: Elapsed time for pipeline run : 1.79
+INFO: 2024-03-19 22:48:02,214: Pipeline end...
+INFO: 2024-03-19 22:48:02,215: ************************************
+INFO: 2024-03-19 22:48:45,189: ************************************
+INFO: 2024-03-19 22:48:45,189: Pipeline Start...
+INFO: 2024-03-19 22:48:45,190: Pipeline params :
+INFO: 2024-03-19 22:48:45,190: Data : data/beer_dataset.csv , Preprocessor : derivative, Model : svr, Evaluator : mse
+INFO: 2024-03-19 22:48:45,191: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 22:48:45,192: [PRE PROCESSING]
+INFO: 2024-03-19 22:48:45,193: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 22:48:45,467: Optimized hyper-params for SVR {'C': 1, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 22:48:45,467: [MODEL EVALUATION]
+INFO: 2024-03-19 22:48:45,566: Elapsed time for pipeline run : 0.38
+INFO: 2024-03-19 22:48:45,567: Pipeline end...
+INFO: 2024-03-19 22:48:45,568: ************************************
+INFO: 2024-03-19 22:49:12,050: ************************************
+INFO: 2024-03-19 22:49:12,051: Pipeline Start...
+INFO: 2024-03-19 22:49:12,052: Pipeline params :
+INFO: 2024-03-19 22:49:12,052: Data : data/beer_dataset.csv , Preprocessor : derivative, Model : svr, Evaluator : mse
+INFO: 2024-03-19 22:49:12,053: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 22:49:12,053: [PRE PROCESSING]
+INFO: 2024-03-19 22:49:12,054: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 22:49:12,318: Optimized hyper-params for SVR {'C': 1, 'epsilon': 1, 'kernel': 'poly'}
+INFO: 2024-03-19 22:49:12,318: [MODEL EVALUATION]
+INFO: 2024-03-19 22:49:12,416: Elapsed time for pipeline run : 0.37
+INFO: 2024-03-19 22:49:12,416: Pipeline end...
+INFO: 2024-03-19 22:49:12,417: ************************************
+INFO: 2024-03-19 22:49:34,830: ************************************
+INFO: 2024-03-19 22:49:34,830: Pipeline Start...
+INFO: 2024-03-19 22:49:34,831: Pipeline params :
+INFO: 2024-03-19 22:49:34,831: Data : data/beer_dataset.csv , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 22:49:34,832: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 22:49:34,832: [PRE PROCESSING]
+INFO: 2024-03-19 22:49:34,836: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 22:49:35,052: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 22:49:35,052: [MODEL EVALUATION]
+INFO: 2024-03-19 22:49:35,150: Elapsed time for pipeline run : 0.32
+INFO: 2024-03-19 22:49:35,151: Pipeline end...
+INFO: 2024-03-19 22:49:35,151: ************************************
+INFO: 2024-03-19 22:50:10,878: ************************************
+INFO: 2024-03-19 22:50:10,879: Pipeline Start...
+INFO: 2024-03-19 22:50:10,880: Pipeline params :
+INFO: 2024-03-19 22:50:10,880: Data : data/beer_dataset.csv , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 22:50:10,881: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 22:50:10,881: [PRE PROCESSING]
+INFO: 2024-03-19 22:50:10,885: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 22:50:11,101: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 22:50:11,102: [MODEL EVALUATION]
+INFO: 2024-03-19 22:50:11,196: Elapsed time for pipeline run : 0.32
+INFO: 2024-03-19 22:50:11,196: Pipeline end...
+INFO: 2024-03-19 22:50:11,197: ************************************
+INFO: 2024-03-19 22:50:35,491: ************************************
+INFO: 2024-03-19 22:50:35,491: Pipeline Start...
+INFO: 2024-03-19 22:50:35,492: Pipeline params :
+INFO: 2024-03-19 22:50:35,493: Data : data/beer_dataset.csv , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 22:50:35,493: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 22:50:35,494: [PRE PROCESSING]
+INFO: 2024-03-19 22:50:35,498: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 22:50:35,721: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 22:50:35,721: [MODEL EVALUATION]
+INFO: 2024-03-19 22:50:35,806: Elapsed time for pipeline run : 0.32
+INFO: 2024-03-19 22:50:35,807: Pipeline end...
+INFO: 2024-03-19 22:50:35,808: ************************************
+INFO: 2024-03-19 23:29:18,128: ************************************
+INFO: 2024-03-19 23:29:18,128: Pipeline Start...
+INFO: 2024-03-19 23:29:18,129: Pipeline params :
+INFO: 2024-03-19 23:29:18,129: Data : data/beer_dataset.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2024-03-19 23:29:18,130: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:29:18,130: [PRE PROCESSING]
+INFO: 2024-03-19 23:29:19,108: Least MSE from SAVGOL loop run 0.12013527677502309
+INFO: 2024-03-19 23:29:19,109: Best window size 3
+INFO: 2024-03-19 23:29:19,109: Best polyorder 2
+INFO: 2024-03-19 23:29:19,265: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 23:29:21,325: Optimized n_comp for PLS 15
+INFO: 2024-03-19 23:29:21,327: [MODEL EVALUATION]
+INFO: 2024-03-19 23:31:57,534: ************************************
+INFO: 2024-03-19 23:31:57,538: Pipeline Start...
+INFO: 2024-03-19 23:31:57,539: Pipeline params :
+INFO: 2024-03-19 23:31:57,543: Data : data/beer_dataset.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2024-03-19 23:31:57,544: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:31:57,545: [PRE PROCESSING]
+INFO: 2024-03-19 23:31:58,352: Least MSE from SAVGOL loop run 0.12013527677502309
+INFO: 2024-03-19 23:31:58,352: Best window size 3
+INFO: 2024-03-19 23:31:58,352: Best polyorder 2
+INFO: 2024-03-19 23:31:58,567: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 23:32:00,959: Optimized n_comp for PLS 15
+INFO: 2024-03-19 23:32:00,969: [MODEL EVALUATION]
+INFO: 2024-03-19 23:32:01,157: Model loss : 0.09314116105352524
+INFO: 2024-03-19 23:32:01,160: Elapsed time for pipeline run : 3.63
+INFO: 2024-03-19 23:32:01,161: Pipeline end...
+INFO: 2024-03-19 23:32:01,163: ************************************
+INFO: 2024-03-19 23:32:01,164: ************************************
+INFO: 2024-03-19 23:32:01,164: Pipeline Start...
+INFO: 2024-03-19 23:32:01,165: Pipeline params :
+INFO: 2024-03-19 23:32:01,168: Data : data/beer_dataset.csv , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2024-03-19 23:32:01,168: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:32:01,171: [PRE PROCESSING]
+INFO: 2024-03-19 23:32:01,994: Least MSE from SAVGOL loop run 0.011285997058215294
+INFO: 2024-03-19 23:32:01,994: Best window size 3
+INFO: 2024-03-19 23:32:01,994: Best polyorder 2
+INFO: 2024-03-19 23:32:02,119: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 23:32:04,143: Optimized n_comp for PLS 5
+INFO: 2024-03-19 23:32:04,143: [MODEL EVALUATION]
+INFO: 2024-03-19 23:32:04,317: Model loss : 0.04333294450494032
+INFO: 2024-03-19 23:32:04,318: Elapsed time for pipeline run : 3.15
+INFO: 2024-03-19 23:32:04,319: Pipeline end...
+INFO: 2024-03-19 23:32:04,320: ************************************
+INFO: 2024-03-19 23:32:04,320: ************************************
+INFO: 2024-03-19 23:32:04,321: Pipeline Start...
+INFO: 2024-03-19 23:32:04,322: Pipeline params :
+INFO: 2024-03-19 23:32:04,323: Data : data/beer_dataset.csv , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2024-03-19 23:32:04,324: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:32:04,324: [PRE PROCESSING]
+INFO: 2024-03-19 23:32:05,158: Least MSE from SAVGOL loop run 0.016959467889935034
+INFO: 2024-03-19 23:32:05,159: Best window size 51
+INFO: 2024-03-19 23:32:05,159: Best polyorder 16
+INFO: 2024-03-19 23:32:05,245: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 23:32:07,146: Optimized n_comp for PLS 9
+INFO: 2024-03-19 23:32:07,147: [MODEL EVALUATION]
+INFO: 2024-03-19 23:32:07,296: Model loss : 0.03093757265160424
+INFO: 2024-03-19 23:32:07,297: Elapsed time for pipeline run : 2.98
+INFO: 2024-03-19 23:32:07,297: Pipeline end...
+INFO: 2024-03-19 23:32:07,298: ************************************
+INFO: 2024-03-19 23:35:39,719: ************************************
+INFO: 2024-03-19 23:35:39,720: Pipeline Start...
+INFO: 2024-03-19 23:35:39,721: Pipeline params :
+INFO: 2024-03-19 23:35:39,722: Data : data/beer_dataset.csv , Preprocessor : savgol0, Model : pls, Evaluator : mse
+INFO: 2024-03-19 23:35:39,723: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:35:39,723: [PRE PROCESSING]
+INFO: 2024-03-19 23:35:43,594: Least MSE from SAVGOL loop run 0.12013527677502309
+INFO: 2024-03-19 23:35:43,596: Best window size 3
+INFO: 2024-03-19 23:35:43,596: Best polyorder 2
+INFO: 2024-03-19 23:35:43,600: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 23:35:48,495: Optimized n_comp for PLS 15
+INFO: 2024-03-19 23:35:48,497: [MODEL EVALUATION]
+INFO: 2024-03-19 23:35:48,649: Model loss : 0.09314116105352524
+INFO: 2024-03-19 23:35:48,650: Elapsed time for pipeline run : 8.93
+INFO: 2024-03-19 23:35:48,651: Pipeline end...
+INFO: 2024-03-19 23:35:48,652: ************************************
+INFO: 2024-03-19 23:35:48,653: ************************************
+INFO: 2024-03-19 23:35:48,653: Pipeline Start...
+INFO: 2024-03-19 23:35:48,654: Pipeline params :
+INFO: 2024-03-19 23:35:48,655: Data : data/beer_dataset.csv , Preprocessor : savgol1, Model : pls, Evaluator : mse
+INFO: 2024-03-19 23:35:48,656: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:35:48,657: [PRE PROCESSING]
+INFO: 2024-03-19 23:35:49,141: Least MSE from SAVGOL loop run 0.011285997058215294
+INFO: 2024-03-19 23:35:49,142: Best window size 3
+INFO: 2024-03-19 23:35:49,143: Best polyorder 2
+INFO: 2024-03-19 23:35:49,143: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 23:35:50,785: Optimized n_comp for PLS 5
+INFO: 2024-03-19 23:35:50,790: [MODEL EVALUATION]
+INFO: 2024-03-19 23:35:51,032: Model loss : 0.04333294450494032
+INFO: 2024-03-19 23:35:51,033: Elapsed time for pipeline run : 2.38
+INFO: 2024-03-19 23:35:51,034: Pipeline end...
+INFO: 2024-03-19 23:35:51,035: ************************************
+INFO: 2024-03-19 23:35:51,035: ************************************
+INFO: 2024-03-19 23:35:51,037: Pipeline Start...
+INFO: 2024-03-19 23:35:51,038: Pipeline params :
+INFO: 2024-03-19 23:35:51,040: Data : data/beer_dataset.csv , Preprocessor : savgol2, Model : pls, Evaluator : mse
+INFO: 2024-03-19 23:35:51,043: Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:35:51,046: [PRE PROCESSING]
+INFO: 2024-03-19 23:35:51,562: Least MSE from SAVGOL loop run 0.016959467889935034
+INFO: 2024-03-19 23:35:51,563: Best window size 51
+INFO: 2024-03-19 23:35:51,564: Best polyorder 16
+INFO: 2024-03-19 23:35:51,568: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 23:35:53,307: Optimized n_comp for PLS 9
+INFO: 2024-03-19 23:35:53,309: [MODEL EVALUATION]
+INFO: 2024-03-19 23:35:53,482: Model loss : 0.03093757265160424
+INFO: 2024-03-19 23:35:53,484: Elapsed time for pipeline run : 2.45
+INFO: 2024-03-19 23:35:53,485: Pipeline end...
+INFO: 2024-03-19 23:35:53,486: ************************************
+INFO: 2024-03-19 23:37:22,556: Pipeline Start...
+INFO: 2024-03-19 23:37:22,557: Parameters :
+INFO: 2024-03-19 23:37:22,559: Data : data/beer_dataset.csv , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:37:22,560: [PRE PROCESSING]
+INFO: 2024-03-19 23:37:22,565: Elapsed time for pipeline run : 0.01
+INFO: 2024-03-19 23:37:22,566: Pipeline end...
+INFO: 2024-03-19 23:37:22,566: ************************************
+INFO: 2024-03-19 23:37:22,567: Pipeline Start...
+INFO: 2024-03-19 23:37:22,568: Parameters :
+INFO: 2024-03-19 23:37:22,568: Data : data/beer_dataset.csv , Preprocessor : msc, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:37:22,569: [PRE PROCESSING]
+INFO: 2024-03-19 23:37:22,578: Elapsed time for pipeline run : 0.01
+INFO: 2024-03-19 23:37:22,579: Pipeline end...
+INFO: 2024-03-19 23:37:22,579: ************************************
+INFO: 2024-03-19 23:37:31,442: Pipeline Start...
+INFO: 2024-03-19 23:37:31,443: Parameters :
+INFO: 2024-03-19 23:37:31,444: Data : data/beer_dataset.csv , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:37:31,445: [PRE PROCESSING]
+INFO: 2024-03-19 23:37:31,451: Elapsed time for pipeline run : 0.01
+INFO: 2024-03-19 23:37:31,451: Pipeline end...
+INFO: 2024-03-19 23:37:31,452: ************************************
+INFO: 2024-03-19 23:37:31,452: Pipeline Start...
+INFO: 2024-03-19 23:37:31,453: Parameters :
+INFO: 2024-03-19 23:37:31,453: Data : data/beer_dataset.csv , Preprocessor : msc, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:37:31,454: [PRE PROCESSING]
+INFO: 2024-03-19 23:37:31,460: Elapsed time for pipeline run : 0.01
+INFO: 2024-03-19 23:37:31,460: Pipeline end...
+INFO: 2024-03-19 23:37:31,461: ************************************
+INFO: 2024-03-19 23:37:52,367: Pipeline Start...
+INFO: 2024-03-19 23:37:52,368: Parameters :
+INFO: 2024-03-19 23:37:52,369: Data : data/beer_dataset.csv , Preprocessor : snv, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:37:52,370: [PRE PROCESSING]
+INFO: 2024-03-19 23:37:52,374: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 23:37:54,371: Optimized n_comp for PLS 4
+INFO: 2024-03-19 23:37:54,372: [MODEL EVALUATION]
+INFO: 2024-03-19 23:37:54,508: Model loss : 0.024406890609497522
+INFO: 2024-03-19 23:37:54,509: Elapsed time for pipeline run : 2.14
+INFO: 2024-03-19 23:37:54,510: Pipeline end...
+INFO: 2024-03-19 23:37:54,511: ************************************
+INFO: 2024-03-19 23:37:54,512: Pipeline Start...
+INFO: 2024-03-19 23:37:54,513: Parameters :
+INFO: 2024-03-19 23:37:54,514: Data : data/beer_dataset.csv , Preprocessor : msc, Model : pls, Evaluator : mse, Validation type : kfold-cv, PLS max n_comp : 40, folds (for CV) : 5
+INFO: 2024-03-19 23:37:54,514: [PRE PROCESSING]
+INFO: 2024-03-19 23:37:54,521: [VALIDATION AND HYPERPARAMETER (N_COMP) TUNING]
+INFO: 2024-03-19 23:37:56,587: Optimized n_comp for PLS 4
+INFO: 2024-03-19 23:37:56,588: [MODEL EVALUATION]
+INFO: 2024-03-19 23:37:56,782: Model loss : 0.023739775110913495
+INFO: 2024-03-19 23:37:56,783: Elapsed time for pipeline run : 2.27
+INFO: 2024-03-19 23:37:56,791: Pipeline end...
+INFO: 2024-03-19 23:37:56,799: ************************************
+INFO: 2024-03-19 23:38:38,112: ************************************
+INFO: 2024-03-19 23:38:38,112: Pipeline Start...
+INFO: 2024-03-19 23:38:38,112: Pipeline params :
+INFO: 2024-03-19 23:38:38,113: Data : data/beer_dataset.csv , Preprocessor : msc, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 23:38:38,113: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:38:38,133: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 23:38:44,485: Optimized alpha value for Lasso 5.276601869963392e-05
+INFO: 2024-03-19 23:38:44,486: [MODEL EVALUATION]
+INFO: 2024-03-19 23:38:44,619: Model loss : 0.06746653375287627
+INFO: 2024-03-19 23:38:44,620: Elapsed time for pipeline run : 6.51
+INFO: 2024-03-19 23:38:44,621: Pipeline end...
+INFO: 2024-03-19 23:38:44,622: ************************************
+INFO: 2024-03-19 23:38:55,238: ************************************
+INFO: 2024-03-19 23:38:55,239: Pipeline Start...
+INFO: 2024-03-19 23:38:55,239: Pipeline params :
+INFO: 2024-03-19 23:38:55,240: Data : data/beer_dataset.csv , Preprocessor : snv, Model : lasso, Evaluator : mse
+INFO: 2024-03-19 23:38:55,240: Validation type : repeated-kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:38:55,258: [VALIDATION AND HYPERPARAMETER (Alpha value) TUNING]
+INFO: 2024-03-19 23:39:02,291: Optimized alpha value for Lasso 0.00026797162432742677
+INFO: 2024-03-19 23:39:02,292: [MODEL EVALUATION]
+INFO: 2024-03-19 23:39:02,520: Model loss : 0.04062216018744214
+INFO: 2024-03-19 23:39:02,521: Elapsed time for pipeline run : 7.28
+INFO: 2024-03-19 23:39:02,522: Pipeline end...
+INFO: 2024-03-19 23:39:02,523: ************************************
+INFO: 2024-03-19 23:40:25,524: ************************************
+INFO: 2024-03-19 23:40:25,524: ************************************
+INFO: 2024-03-19 23:40:25,524: Pipeline Start...
+INFO: 2024-03-19 23:40:25,524: Pipeline Start...
+INFO: 2024-03-19 23:40:25,525: Pipeline params :
+INFO: 2024-03-19 23:40:25,525: Pipeline params :
+INFO: 2024-03-19 23:40:25,526: Data : data/beer_dataset.csv , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:40:25,526: Data : data/beer_dataset.csv , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:40:25,526: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:40:25,526: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:40:25,527: [PRE PROCESSING]
+INFO: 2024-03-19 23:40:25,527: [PRE PROCESSING]
+INFO: 2024-03-19 23:40:25,532: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:40:25,532: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:40:26,935: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 23:40:26,935: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 23:40:26,936: [MODEL EVALUATION]
+INFO: 2024-03-19 23:40:26,936: [MODEL EVALUATION]
+INFO: 2024-03-19 23:40:27,097: Elapsed time for pipeline run : 1.57
+INFO: 2024-03-19 23:40:27,097: Elapsed time for pipeline run : 1.57
+INFO: 2024-03-19 23:40:27,100: Pipeline end...
+INFO: 2024-03-19 23:40:27,100: Pipeline end...
+INFO: 2024-03-19 23:40:27,102: ************************************
+INFO: 2024-03-19 23:40:27,102: ************************************
+INFO: 2024-03-19 23:40:38,294: ************************************
+INFO: 2024-03-19 23:40:38,294: ************************************
+INFO: 2024-03-19 23:40:38,295: Pipeline Start...
+INFO: 2024-03-19 23:40:38,295: Pipeline Start...
+INFO: 2024-03-19 23:40:38,295: Pipeline params :
+INFO: 2024-03-19 23:40:38,295: Pipeline params :
+INFO: 2024-03-19 23:40:38,296: Data : data/beer_dataset.csv , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:40:38,296: Data : data/beer_dataset.csv , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:40:38,296: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:40:38,296: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:40:38,297: [PRE PROCESSING]
+INFO: 2024-03-19 23:40:38,297: [PRE PROCESSING]
+INFO: 2024-03-19 23:40:38,301: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:40:38,301: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:40:38,514: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 23:40:38,514: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 23:40:38,514: [MODEL EVALUATION]
+INFO: 2024-03-19 23:40:38,514: [MODEL EVALUATION]
+INFO: 2024-03-19 23:40:38,599: Elapsed time for pipeline run : 0.3
+INFO: 2024-03-19 23:40:38,599: Elapsed time for pipeline run : 0.3
+INFO: 2024-03-19 23:40:38,600: Pipeline end...
+INFO: 2024-03-19 23:40:38,600: Pipeline end...
+INFO: 2024-03-19 23:40:38,601: ************************************
+INFO: 2024-03-19 23:40:38,601: ************************************
+INFO: 2024-03-19 23:41:27,256: ************************************
+INFO: 2024-03-19 23:41:27,256: ************************************
+INFO: 2024-03-19 23:41:27,257: Pipeline Start...
+INFO: 2024-03-19 23:41:27,257: Pipeline Start...
+INFO: 2024-03-19 23:41:27,258: Pipeline params :
+INFO: 2024-03-19 23:41:27,258: Pipeline params :
+INFO: 2024-03-19 23:41:27,258: Data : data/beer_dataset.csv , Preprocessor : derivative, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:41:27,258: Data : data/beer_dataset.csv , Preprocessor : derivative, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:41:27,259: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:41:27,259: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:41:27,260: [PRE PROCESSING]
+INFO: 2024-03-19 23:41:27,260: [PRE PROCESSING]
+INFO: 2024-03-19 23:41:27,261: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:41:27,261: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:41:27,486: Optimized hyper-params for SVR {'C': 10, 'epsilon': 0.5, 'kernel': 'poly'}
+INFO: 2024-03-19 23:41:27,486: Optimized hyper-params for SVR {'C': 10, 'epsilon': 0.5, 'kernel': 'poly'}
+INFO: 2024-03-19 23:41:27,486: [MODEL EVALUATION]
+INFO: 2024-03-19 23:41:27,486: [MODEL EVALUATION]
+INFO: 2024-03-19 23:41:27,572: Elapsed time for pipeline run : 0.32
+INFO: 2024-03-19 23:41:27,572: Elapsed time for pipeline run : 0.32
+INFO: 2024-03-19 23:41:27,573: Pipeline end...
+INFO: 2024-03-19 23:41:27,573: Pipeline end...
+INFO: 2024-03-19 23:41:27,574: ************************************
+INFO: 2024-03-19 23:41:27,574: ************************************
+INFO: 2024-03-19 23:41:35,309: ************************************
+INFO: 2024-03-19 23:41:35,309: ************************************
+INFO: 2024-03-19 23:41:35,309: Pipeline Start...
+INFO: 2024-03-19 23:41:35,309: Pipeline Start...
+INFO: 2024-03-19 23:41:35,310: Pipeline params :
+INFO: 2024-03-19 23:41:35,310: Pipeline params :
+INFO: 2024-03-19 23:41:35,311: Data : data/beer_dataset.csv , Preprocessor : msc, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:41:35,311: Data : data/beer_dataset.csv , Preprocessor : msc, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:41:35,312: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:41:35,312: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:41:35,312: [PRE PROCESSING]
+INFO: 2024-03-19 23:41:35,312: [PRE PROCESSING]
+INFO: 2024-03-19 23:41:35,319: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:41:35,319: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:41:35,588: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 23:41:35,588: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 23:41:35,588: [MODEL EVALUATION]
+INFO: 2024-03-19 23:41:35,588: [MODEL EVALUATION]
+INFO: 2024-03-19 23:41:35,671: Elapsed time for pipeline run : 0.36
+INFO: 2024-03-19 23:41:35,671: Elapsed time for pipeline run : 0.36
+INFO: 2024-03-19 23:41:35,672: Pipeline end...
+INFO: 2024-03-19 23:41:35,672: Pipeline end...
+INFO: 2024-03-19 23:41:35,672: ************************************
+INFO: 2024-03-19 23:41:35,672: ************************************
+INFO: 2024-03-19 23:44:35,422: ************************************
+INFO: 2024-03-19 23:44:35,422: ************************************
+INFO: 2024-03-19 23:44:35,423: Pipeline Start...
+INFO: 2024-03-19 23:44:35,423: Pipeline Start...
+INFO: 2024-03-19 23:44:35,423: Pipeline params :
+INFO: 2024-03-19 23:44:35,423: Pipeline params :
+INFO: 2024-03-19 23:44:35,423: Data : data/beer_dataset.csv , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:44:35,423: Data : data/beer_dataset.csv , Preprocessor : snv, Model : svr, Evaluator : mse
+INFO: 2024-03-19 23:44:35,424: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:44:35,424: Validation type : kfold-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:44:35,424: [PRE PROCESSING]
+INFO: 2024-03-19 23:44:35,424: [PRE PROCESSING]
+INFO: 2024-03-19 23:44:35,428: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:44:35,428: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:44:35,681: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 23:44:35,681: Optimized hyper-params for SVR {'C': 1000, 'epsilon': 0.1, 'kernel': 'poly'}
+INFO: 2024-03-19 23:44:35,683: [MODEL EVALUATION]
+INFO: 2024-03-19 23:44:35,683: [MODEL EVALUATION]
+INFO: 2024-03-19 23:44:35,771: Elapsed time for pipeline run : 0.35
+INFO: 2024-03-19 23:44:35,771: Elapsed time for pipeline run : 0.35
+INFO: 2024-03-19 23:44:35,772: Pipeline end...
+INFO: 2024-03-19 23:44:35,772: Pipeline end...
+INFO: 2024-03-19 23:44:35,773: ************************************
+INFO: 2024-03-19 23:44:35,773: ************************************
+INFO: 2024-03-19 23:45:35,815: ************************************
+INFO: 2024-03-19 23:45:35,816: Pipeline Start...
+INFO: 2024-03-19 23:45:35,816: Pipeline params :
+INFO: 2024-03-19 23:45:35,817: Data : data/beer_dataset.csv , Preprocessor : derivative, Model : randomforests, Evaluator : mse
+INFO: 2024-03-19 23:45:35,818: Validation type : grid-search-cv, folds (for CV) : 5
+INFO: 2024-03-19 23:45:35,818: [PRE PROCESSING]
+INFO: 2024-03-19 23:45:35,820: [VALIDATION AND HYPERPARAMETER TUNING]
+INFO: 2024-03-19 23:45:43,780: Optimized hyper-params for RandomForests {'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+INFO: 2024-03-19 23:45:43,782: [MODEL EVALUATION]
+INFO: 2024-03-19 23:45:44,887: Elapsed time for pipeline run : 9.07
+INFO: 2024-03-19 23:45:44,887: Pipeline end...
+INFO: 2024-03-19 23:45:44,888: ************************************

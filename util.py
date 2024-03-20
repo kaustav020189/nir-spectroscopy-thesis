@@ -702,6 +702,10 @@ def evaluate_pls(X_train, X_test, y_train, y_test, min_pls_n_comp, showPlot=Fals
     # SAVE MSE VALUE CALCULATED BETWEEN Y_TEST AND Y_PRED
     print('[Model Evaluation] MSE value between y_test and y_pred : %5.3f' % mse_c)
 
+    mape = 100 * np.mean(mse_c / y_test)
+    accuracy = 100 - mape
+    print('Accuracy = {:0.2f}%.'.format(accuracy))
+
     # Plot regression and figures of merit
     rangey = max(y_test) - min(y_test)
     rangex = max(y_pred) - min(y_pred)
@@ -746,6 +750,10 @@ def evaluate_lasso(X_train, X_test, y_train, y_test, best_alpha_val, showPlot=Fa
 
     # EVALUATION
     loss = mean_squared_error(y_test, y_pred)
+
+    mape = 100 * np.mean(loss / y_test)
+    accuracy = 100 - mape
+    print('Accuracy = {:0.2f}%.'.format(accuracy))
 
     # Plot
     if showModelEvaluationPlots:
